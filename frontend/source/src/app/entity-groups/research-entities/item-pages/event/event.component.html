@@ -1,0 +1,156 @@
+<div class="d-flex flex-row">
+    <ds-item-page-title-field [item]="object" class="mr-auto">
+    </ds-item-page-title-field>
+    <div class="pl-2 space-children-mr">
+      <ds-dso-page-version-button (newVersionEvent)="onCreateNewVersion()" [dso]="object"
+                                  [tooltipMsgCreate]="'item.page.version.create'"
+                                  [tooltipMsgHasDraft]="'item.page.version.hasDraft'"></ds-dso-page-version-button>
+      <ds-dso-page-edit-button [pageRoute]="itemPageRoute" [dso]="object" [tooltipMsg]="'orgunit.page.edit'"></ds-dso-page-edit-button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-md-4">
+      <ds-metadata-field-wrapper [hideIfNoTextContent]="false">
+        <ds-thumbnail [thumbnail]="object?.thumbnail | async"
+                      [defaultImage]="'assets/images/events.png'"
+                      [alt]="'thumbnail.event.alt'"
+                      [placeholder]="'thumbnail.event.placeholder'"
+        >
+        </ds-thumbnail>
+
+
+
+
+      </ds-metadata-field-wrapper>
+
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['event.startDate']"
+        [label]="'event.page.startDate'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['event.startTime']"
+        [label]="'event.page.startTime'">
+      </ds-generic-item-page-field>
+
+
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['event.endDate']"
+        [label]="'event.page.endDate'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['event.endTime']"
+        [label]="'event.page.endTime'">
+      </ds-generic-item-page-field>
+
+
+  <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+  [parentItem]="object"
+  [itemType]="'Person'"
+  [metadataFields]="['event.organizer']"
+  [label]="'event.page.organizer' | translate">
+</ds-metadata-representation-list>
+
+
+<ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+[parentItem]="object"
+[itemType]="'Person'"
+[metadataFields]="['event.sponsor']"
+[label]="'event.page.sponsor' | translate">
+</ds-metadata-representation-list>
+
+
+<ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+[parentItem]="object"
+[itemType]="'Person'"
+[metadataFields]="['event.contributor']"
+[label]="'event.page.contributor' | translate">
+</ds-metadata-representation-list>
+
+
+<ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+[parentItem]="object"
+[itemType]="'Person'"
+[metadataFields]="['event.attendee']"
+[label]="'event.page.attendee' | translate">
+</ds-metadata-representation-list>
+  
+    </div>
+    <div class="col-xs-12 col-md-6">
+
+      <ds-related-items
+        [parentItem]="object"
+        [relationType]="'isPlaceOfEvent'"
+        [label]="'relationships.isPlaceOf' | translate">
+      </ds-related-items>
+
+
+      <ds-related-items
+      [parentItem]="object"
+      [relationType]="'isEraOfEvent'"
+      [label]="'relationships.isEraOf' | translate">
+    </ds-related-items>
+
+     
+
+
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['event.duration']"
+      [label]="'event.page.duration'">
+    </ds-generic-item-page-field>
+
+
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['event.audience']"
+    [label]="'event.page.audience'">
+  </ds-generic-item-page-field>
+
+
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['event.about']"
+    [label]="'event.page.about'">
+  </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.description']"
+        [label]="'event.page.description'">
+      </ds-generic-item-page-field>
+
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.subject']"
+      [separator]="','"
+      [label]="'item.page.subject'">
+    </ds-generic-item-page-field>
+  
+  
+  
+  
+      <div>
+        <a class="btn btn-outline-primary" [routerLink]="[itemPageRoute + '/full']">
+          {{"item.page.link.full" | translate}}
+        </a>
+      </div>
+    </div>
+    <div class="mt-5 w-100">
+      <!-- <ds-tabbed-related-entities-search  [item]="object"
+                                          [relationTypes]="[{
+                                            label: 'isOrgUnitOfPerson',
+                                            filter: 'isOrgUnitOfPerson',
+                                            configuration: 'person-relationships'
+                                          },
+                                          {
+                                            label: 'isChildOfOrgUnit',
+                                            filter: 'isOrgUnitOfSubOrgUnit',
+                                            configuration: 'orgunit-relationships'
+                                          },
+                                          {
+                                            label: 'isOrgUnitOfProject',
+                                            filter: 'isOrgUnitOfProject',
+                                            configuration: 'project-relationships'
+                                          }]">
+      </ds-tabbed-related-entities-search> -->
+    </div>
+  </div>
+  

@@ -1,0 +1,6 @@
+<div *ngIf="content" class="content-with-optional-title mb-2">
+    <h2 *ngIf="title">{{ title | translate }}</h2>
+    <!-- kware-edit kwareTranslatePipe -->
+    <div *ngIf="hasInnerHtml" [innerHtml]="content | kwareTranslate"></div>
+    <div *ngIf="!hasInnerHtml">{{content | kwareTranslate}}</div>
+</div>

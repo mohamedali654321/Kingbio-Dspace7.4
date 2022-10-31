@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<import_structure>
+  <community>
+    <name>Digital Repository of Al-madinah Al-munawarah Research &amp; Studies Center2 | 2المستودع الرقمي لمركز بحوث و دراسات المدينة المنورة</name>
+    <description />
+    <intro />
+    <copyright />
+    <sidebar />
+    <community>
+      <name>Center Publications | منشورات المركز</name>
+      <description />
+      <intro />
+      <copyright />
+      <sidebar />
+      <collection>
+        <name>Conference Proceedings and Presentations | وقائع وأوراق مؤتمرات</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection>
+        <name>Journal Issues | أعداد دوريات</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection>
+        <name>Journals | دوريات</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection>
+        <name>Manuscripts | مخطوطات</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection>
+        <name>Multimedia | وسائط متعددة</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection>
+        <name>Publications | منشورات</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection>
+        <name>Volumes Associated with Journals | مجلدات تابعة لدوريات</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+    </community>
+    <community>
+      <name>Profile of Departments and Authors | بروفايل الإدارات والمؤلفين</name>
+      <description />
+      <intro />
+      <copyright />
+      <sidebar />
+      <collection>
+        <name>Research and Administration Units | الإدارات البحثية والإدارية</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection>
+        <name>ِResearchers and Administrators Profiles | بروفايل الباحثين والإداريين</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+    </community>
+  </community>
+</import_structure>

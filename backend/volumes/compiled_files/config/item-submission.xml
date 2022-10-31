@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE item-submission SYSTEM "item-submission.dtd">
+
+<!-- Configurable Submission configuration file -->
+
+<!-- This XML configuration file allows you to configure the ordering -->
+<!-- and number of the steps that occur in the Item Submission Process. -->
+<item-submission>
+
+    <!-- The process-map maps collection handles to a particular Item -->
+    <!-- Submission Process. This requires that a collection's name be -->
+    <!-- unique, even within a community. DSpace does however ensure that each -->
+    <!-- collection's handle is unique. Process-map provides the means to -->
+    <!-- associate a unique collection name with an Item Submission process. -->
+    <!-- The process-map also provides the special handle "default" (which is -->
+    <!-- never a collection), here mapped to "traditional". Any collection -->
+    <!-- which does not appear in this map will be associated with the mapping -->
+    <!-- for handle "default". -->
+    <submission-map>
+        <!-- Default submission process -->
+        <name-map collection-handle="default" submission-name="traditional"/>
+		<name-map collection-handle="123456789/210" submission-name="ebooksform"/>
+		<name-map collection-handle="123456789/165" submission-name="conferenceform"/>
+		<name-map collection-handle="123456789/241" submission-name="dissertationsform"/>
+                <name-map collection-handle="123456789/257" submission-name="dissertationsform"/>
+                 <name-map collection-handle="123456789/163" submission-name="dissertationsform"/>
+                <name-map collection-handle="123456789/279" submission-name="Person"/>
+                <name-map collection-handle="123456789/160" submission-name="Person"/>
+                
+				<name-map collection-handle="123456789/298" submission-name="Person"/>
+
+                
+
+        <name-map collection-handle="123456789/294" submission-name="ResearchPublication"/>
+        <name-map collection-handle="123456789/164" submission-name="ResearchPublication"/>
+
+
+
+        
+    
+
+        
+        <name-map collection-handle="123456789/162" submission-name="Publication"/>
+        <name-map collection-handle="123456789/165" submission-name="Publication"/>
+
+              <!-- <name-map collection-handle="123456789/162" submission-name="Publication"/>
+        <name-map collection-handle="123456789/165" submission-name="Publication"/> -->
+        
+                <name-map collection-handle="123456789/723" submission-name="OrgUnit"/>
+                  <name-map collection-handle="123456789/161" submission-name="OrgUnit"/>
+  
+                    <name-map collection-handle="123456789/424" submission-name="OrgUnit"/>
+
+
+
+                    
+
+<name-map collection-handle="123456789/512" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/513" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/624" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/625" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/626" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/627" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/628" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/629" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/713" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/714" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/630" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/631" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/632" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/633" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/634" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/635" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/656" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/657" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/658" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/659" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/660" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/661" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/662" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/663" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/664" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/665" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/666" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/667" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/668" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/669" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/707" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/708" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/670" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/671" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/672" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/673" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/716" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/717" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/674" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/675" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/676" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/677" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/690" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/691" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/692" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/693" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/694" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/683" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/701" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/702" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/704" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/705" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/684" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/685" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/686" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/687" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/698" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/699" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/802" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/810" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/795" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/817" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/788" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/809" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/812" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/823" submission-name="dissertationsform"/>                
+<name-map collection-handle="123456789/781" submission-name="dissertationsform"/>    
+<name-map collection-handle="123456789/814" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/811" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/820" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/826" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/829" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/792" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/821" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/800" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/806" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/785" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/778" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/807" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/780" submission-name="dissertationsform"/>
+<name-map collection-handle="123456789/784" submission-name="dissertationsform"/>
+
+
+
+<name-map collection-handle="123456789/171" submission-name="manuscriptForm"/>
+<name-map collection-handle="123456789/855" submission-name="manuscriptForm"/>
+<name-map collection-handle="123456789/854" submission-name="manuscriptForm"/>
+<name-map collection-handle="123456789/853" submission-name="manuscriptForm"/>
+<name-map collection-handle="123456789/857" submission-name="manuscriptForm"/>
+<name-map collection-handle="123456789/860" submission-name="manuscriptForm"/>
+<name-map collection-handle="123456789/859" submission-name="manuscriptForm"/>
+
+
+
+<!-- Sample Entities -->
+
+        <name-map collection-handle="123456789/38" submission-name="Publication"/>
+        <name-map collection-handle="123456789/169" submission-name="Publication"/>
+        <name-map collection-handle="123456789/164" submission-name="Publication"/>
+        <name-map collection-handle="123456789/170" submission-name="Publication"/>
+        <name-map collection-handle="123456789/39" submission-name="OrgUnit"/>
+        <name-map collection-handle="123456789/40" submission-name="Person"/>
+        <name-map collection-handle="123456789/41" submission-name="Project"/>
+        <name-map collection-handle="123456789/291" submission-name="Journal"/>
+        <name-map collection-handle="123456789/168" submission-name="Journal"/>
+        
+        <name-map collection-handle="123456789/295" submission-name="JournalVolume"/>
+        <name-map collection-handle="123456789/167" submission-name="JournalVolume"/>
+        <name-map collection-handle="123456789/290" submission-name="JournalIssue"/>
+        <name-map collection-handle="123456789/166" submission-name="JournalIssue"/>
+        
+
+        <name-map collection-handle="123456789/420" submission-name="Place"/>
+        <name-map collection-handle="123456789/617" submission-name="Place"/>
+
+
+        <name-map collection-handle="123456789/422" submission-name="Event"/>
+
+<!-- EOF Sample Entities -->
+
+
+        <!-- Sample Entities Collection configuration based on the demo Entities dataset available at:
+             https://github.com/DSpace-Labs/AIP-Files/releases/tag/demo-entities-data
+             This sets up the following Entity-based Collections in that dataset:
+                "Publication" Collections = "Publications" -> "Articles", "Books", "Publications 2", & "Theses"
+                "OrgUnit" Collection = "Related Objects" -> "OrgUnits"
+                "Person" Collections = "Related Objects" -> "People" & "People 2"
+                "Project" Collections = "Related Objects" -> "Projects" & "Projects 2"
+                "Journal" Collection = "Compound Journals" -> "Journals"
+                "Journal Volume" Collection = "Compound Journals" -> "Journal Volumes"
+                "Journal Issue" Collection = "Compound Journals" ->  "Journal Issues"
+             If you are using that demo dataset, you can simply uncomment the below configuration to enable Entity
+             submission into all of the above Collections.
+        -->
+        <!--
+        <name-map collection-handle="123456789/3" submission-name="Publication"/>
+        <name-map collection-handle="123456789/4" submission-name="Publication"/>
+        <name-map collection-handle="123456789/281" submission-name="Publication"/>
+        <name-map collection-handle="123456789/5" submission-name="Publication"/>
+        <name-map collection-handle="123456789/8" submission-name="OrgUnit"/>
+        <name-map collection-handle="123456789/6" submission-name="Person"/>
+        <name-map collection-handle="123456789/279" submission-name="Person"/>
+        <name-map collection-handle="123456789/7" submission-name="Project"/>
+        <name-map collection-handle="123456789/280" submission-name="Project"/>
+        <name-map collection-handle="123456789/28" submission-name="Journal"/>
+        <name-map collection-handle="123456789/29" submission-name="JournalVolume"/>
+        <name-map collection-handle="123456789/30" submission-name="JournalIssue"/>
+        -->
+    </submission-map>
+
+
+
+    <!-- The 'step-definitions' allows you to define steps which you may wish -->
+    <!-- to "share" amongst multiple submission-item definitions. In order to -->
+    <!-- share the same step definition, you can refer to it by its unique id -->
+    <!-- defined in this section. EVERY 'step' in this section MUST have a -->
+    <!-- unique identifier in the 'id' attribute! -->
+    <!-- -->
+    <!-- Each <step-definition> REQUIRES the following attributes (@) and properties: -->
+    <!-- @id - The unique identifier for this step -->
+    <!-- -->
+    <!-- <processing-class> - The class which will process all information for -->
+    <!-- this step. The class must implement -->
+    <!-- 'org.dspace.app.rest.submit.RestProcessingStep' -->
+    <!-- (or one of the org.dspace.rest.submit.step.* classes) -->
+    <!-- This property should reference the full path of the class -->
+    <!-- (e.g. org.dspace.app.rest.submit.step.MyCustomStep) -->
+    <!-- -->
+    <!-- The following properties are OPTIONAL for each <step-definition>: -->
+    <!-- <heading> - References the message key, from the -->
+    <!-- Messages.properties -->
+    <!-- -->
+    <step-definitions>
+        <!-- The "collection" step is a "special step" which is *REQUIRED* -->
+        <!-- In DSpace, all submitted items must be immediately assigned -->
+        <!-- to a collection. This step ensures that a collection is always selected. -->
+        <step-definition id="collection">
+            <heading></heading>
+            <processing-class>org.dspace.app.rest.submit.step.CollectionStep</processing-class>
+            <type>collection</type>
+            <scope visibility="hidden" visibilityOutside="hidden">submission</scope>
+        </step-definition>
+
+
+        <step-definition id="E-Textbooks" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        
+        <step-definition id="Conference" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        
+        
+                <step-definition id="personstep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        
+        
+        <step-definition id="UniversityDissertations" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition id="UniversityDissertationsPageTow" mandatory="true">
+            <heading>submit.progressbar.uniDescribe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+<step-definition id="manuscriptPageTwo" mandatory="true">
+            <heading>submit.progressbar.manuscriptTypeDescribe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+
+        <step-definition id="manuscriptPageThree" mandatory="true">
+            <heading>submit.progressbar.manuscriptToolsDescribe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+
+        <step-definition id="manuscriptPageFour" mandatory="true">
+            <heading>submit.progressbar.manuscriptPhysicalDescribe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+
+        <step-definition id="manuscriptPageFive" mandatory="true">
+            <heading>submit.progressbar.manuscriptObjectiveDescribe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        
+        
+
+        <step-definition id="manuscriptFistSection" mandatory="true">
+            <heading>submit.progressbar.manuscriptAuthorDescribe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <!-- The following set of DescribeStep <step-definition>s all point to forms (of the same name) which are
+             defined in submission-forms.xml -->
+        <step-definition id="traditionalpageone" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="traditionalpagetwo" mandatory="true">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="publicationStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        
+        
+                <step-definition id="researchpublicationStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+
+
+        <step-definition id="placeStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+
+        <step-definition id="eventStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        
+        
+        <step-definition id="projectStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        
+                <step-definition id="personStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        
+        
+        <step-definition id="orgUnitStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="journalStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="journalVolumeStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="journalIssueStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition id="upload">
+            <heading>submit.progressbar.upload</heading>
+            <processing-class>org.dspace.app.rest.submit.step.UploadStep</processing-class>
+            <type>upload</type>
+        </step-definition>
+        <step-definition id="license">
+            <heading>submit.progressbar.license</heading>
+            <processing-class>org.dspace.app.rest.submit.step.LicenseStep</processing-class>
+            <type>license</type>
+            <scope visibilityOutside="read-only">submission</scope>
+        </step-definition>
+
+        <!-- This optional step may allow the user to select a Creative Commons license -->
+        <step-definition id="cclicense" mandatory="false">
+            <heading>submit.progressbar.CClicense</heading>
+            <processing-class>org.dspace.app.rest.submit.step.CCLicenseStep</processing-class>
+	        <type>cclicense</type>
+        </step-definition>
+
+        <!-- This optional step may enrich the current submission using information extracted
+             from uploaded files or metadata.  -->
+        <!-- Please note that this step will be triggered only when a request is performed,
+             e.g. when a file is uploaded or the form is saved. The Angular UI also supports an
+             autosave feature based on a timer, or the input of specific metadata such as identifiers,
+             see the 'submission.autosave' settings in the 'environment.common.ts'.
+             See also 'config/spring/api/step-processing-listener.xml' for further server side configuration
+             -->
+        <step-definition id="extractionstep">
+            <heading>submit.progressbar.ExtractMetadataStep</heading>
+            <processing-class>org.dspace.app.rest.submit.step.ExtractMetadataStep</processing-class>
+            <type>extract</type>
+        </step-definition>
+
+        <!-- OpenAIRE submission steps/forms -->
+        <step-definition id="openAIREProjectForm" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="openAIREPersonForm" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="openAIREOrganizationForm" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="openAIREPublicationPageoneForm" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="openAIREPublicationPagetwoForm" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <!-- This is the Sample/Fake Step which is used for testing only -->
+        <step-definition id="sample">
+            <heading>Sample</heading>
+            <processing-class>org.dspace.submit.step.SampleStep</processing-class>
+            <type>sample</type>
+        </step-definition>
+    </step-definitions>
+
+    <!-- The submission-definitions map lays out the detailed definition of -->
+    <!-- all the Item Submission Processes (and the ordering of their steps). -->
+    <!-- Each separate "submission-process" has a unique name as an attribute, -->
+    <!-- which matches one of the names in the process-map. One named -->
+    <!-- "submit-process" has the name "traditional"; as this name suggests, -->
+    <!-- it is the default item submission process, which gets used when -->
+    <!-- the specified collection has no correspondingly named submit-process. -->
+    <!-- -->
+    <!-- Each submit-process contains an ordered set of steps; each step -->
+    <!-- defines one "step" occurring during the process of submitting an -->
+    <!-- item. A step MUST be referenced by 'id' (it must -->
+    <!-- be defined in <step-definitions> above). -->
+    <!-- -->
+    <!-- -->
+    <submission-definitions>
+
+        <!--This "traditional" process defines the DEFAULT item submission process -->
+        <submission-process name="traditional">
+            <!--Uncommment to display the SAMPLE step as your first step -->
+            <!--<step id="sample"/> -->
+
+            <step id="collection"/>
+
+            <!--Step will be to Describe the item. -->
+            <step id="traditionalpageone"/>
+            <step id="traditionalpagetwo"/>
+
+            <!--Step will be to Upload the item -->
+            <step id="upload"/>
+            <!-- <step id="extractionstep"/> -->
+
+            <!-- Uncomment this step to allow the user to select a Creative Commons License -->
+            <step id="cclicense"/>
+
+            <!--Step will be to Sign off on the required DSpace License agreement -->
+            <!--<step id="license"/>-->
+        </submission-process>
+
+
+        <submission-process name="ebooksform">
+            <!--Uncommment to display the SAMPLE step as your first step -->
+            <!--<step id="sample"/> -->
+
+            <step id="collection"/>
+
+            <!--Step will be to Describe the item. -->
+            <step id="E-Textbooks"/>
+
+            <!--Step will be to Upload the item -->
+            <step id="upload"/>
+            <!-- <step id="extractionstep"/> -->
+
+            <!-- Uncomment this step to allow the user to select a Creative Commons License -->
+            <step id="cclicense"/>
+
+            <!--Step will be to Sign off on the required DSpace License agreement -->
+            <step id="license"/>
+        </submission-process>
+       
+        <submission-process name="conferenceform">
+            <!--Uncommment to display the SAMPLE step as your first step -->
+            <!--<step id="sample"/> -->
+
+            <step id="collection"/>
+
+            <!--Step will be to Describe the item. -->
+            <step id="Conference"/>
+
+            <!--Step will be to Upload the item -->
+            <step id="upload"/>
+            <!-- <step id="extractionstep"/> -->
+
+            <!-- Uncomment this step to allow the user to select a Creative Commons License -->
+            <step id="cclicense"/>
+
+            <!--Step will be to Sign off on the required DSpace License agreement -->
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="dissertationsform">
+            <!--Uncommment to display the SAMPLE step as your first step -->
+            <!--<step id="sample"/> -->
+
+            <step id="collection"/>
+
+            <!--Step will be to Describe the item. -->
+            <step id="UniversityDissertations"/>
+            <step id="UniversityDissertationsPageTow"/>
+            <!--Step will be to Upload the item -->
+            <step id="upload"/>
+            <!-- <step id="extractionstep"/> -->
+
+            <!-- Uncomment this step to allow the user to select a Creative Commons License -->
+            <step id="cclicense"/>
+
+            <!--Step will be to Sign off on the required DSpace License agreement -->
+            <step id="license"/>
+        </submission-process>
+
+
+
+        <!-- manuscript form -->
+        <submission-process name="manuscriptForm">
+            <!--Uncommment to display the SAMPLE step as your first step -->
+            <!--<step id="sample"/> -->
+
+            <step id="collection"/>
+
+            <!--Step will be to Describe the item. -->
+            <step id="manuscriptFistSection"/>
+            <step id="manuscriptPageTwo"/>
+            <step id="manuscriptPageThree"/>
+            <step id="manuscriptPageFour"/>
+            <step id="manuscriptPageFive"/>
+          
+            <!--Step will be to Upload the item -->
+            <step id="upload"/>
+            <!-- <step id="extractionstep"/> -->
+
+            <!-- Uncomment this step to allow the user to select a Creative Commons License -->
+            <step id="cclicense"/>
+
+            <!--Step will be to Sign off on the required DSpace License agreement -->
+            <step id="license"/>
+        </submission-process>
+
+        <!--
+        Submission Process for 'Publication' Entities.
+        These are not to be confused with default Items, as Publications may be linked with other Entities
+        (e.g. Person, JournalIssue, etc).
+        To enable: create a collection for Publications and add it to the <submission-map> tag linking to this process
+         -->
+        <submission-process name="Publication">
+            <step id="collection"/>
+            <!-- Publications use a custom first step, but share page 2 with "traditional" Item form -->
+            <step id="publicationStep"/>
+            <step id="traditionalpagetwo"/>
+            <step id="upload"/>
+            <!--<step id="license"/>-->
+        </submission-process>
+
+        <submission-process name="ResearchPublication">
+            <step id="collection"/>
+            <!-- Publications use a custom first step, but share page 2 with "traditional" Item form -->
+            <step id="researchpublicationStep"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+
+
+
+             <submission-process name="Place">
+            <step id="collection"/>
+            <!-- Publications use a custom first step, but share page 2 with "traditional" Item form -->
+            <step id="placeStep"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+
+
+           <submission-process name="Event">
+            <step id="collection"/>
+            <!-- Publications use a custom first step, but share page 2 with "traditional" Item form -->
+            <step id="eventStep"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+
+        <!--
+        Submission Process for 'Person' Entities
+        To enable: create a collection for Persons and add it to the <submission-map> tag linking to this process
+         -->
+        <submission-process name="Person">
+            <step id="collection"/>
+            <step id="personStep"/>
+            <step id="upload"/>
+            <step id="cclicense"/>
+        </submission-process>
+
+        <!--
+        Submission Process for 'Pproject' Entities
+        To enable: create a collection for Projects and add it to the <submission-map> tag linking to this process
+         -->
+        <submission-process name="Project">
+            <step id="collection"/>
+            <step id="projectStep"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <!--
+        Submission Process for 'OrgUnit' Entities
+        To enable: create a collection for OrgUnits and add it to the <submission-map> tag linking to this process
+         -->
+        <submission-process name="OrgUnit">
+            <step id="collection"/>
+            <step id="orgUnitStep"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <!--
+        Submission Process for 'Journal' Entities
+        To enable: create a collection for Journals and add it to the <submission-map> tag linking to this process
+         -->
+        <submission-process name="Journal">
+            <step id="collection"/>
+            <step id="journalStep"/>
+            <step id="upload"/>
+            <step id="license"/>
+            <step id="cclicense"/>
+        </submission-process>
+
+        <!--
+        Submission Process for 'JournalVolume' Entities
+        To enable: create a collection for JournalVolumes and add it to the <submission-map> tag linking to this process
+         -->
+        <submission-process name="JournalVolume">
+            <step id="collection"/>
+            <step id="journalVolumeStep"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <!--
+        Submission Process for 'JournalIssues' Entities
+        To enable: create a collection for JournalIssues and add it to the <submission-map> tag linking to this process
+         -->
+        <submission-process name="JournalIssue">
+            <step id="collection"/>
+            <step id="journalIssueStep"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <!-- OpenAIRE submission processes -->
+        <submission-process name="openAIREPublicationSubmission">
+            <step id="collection"/>
+
+            <!--Step will be to Describe the item. -->
+            <step id="openAIREPublicationPageoneForm"/>
+            <step id="openAIREPublicationPagetwoForm"/>
+
+            <!--Step will be to Upload the item -->
+            <!-- step id="upload-with-embargo"/-->
+            <step id="upload"/>
+
+            <!--Step will be to Sign off on the License -->
+            <step id="license"/>
+        </submission-process>
+        <submission-process name="openAIREPersonSubmission">
+            <step id="collection"/>
+            <step id="openAIREPersonForm"/>
+        </submission-process>
+        <submission-process name="openAIREProjectSubmission">
+            <step id="collection"/>
+            <step id="openAIREProjectForm"/>
+        </submission-process>
+        <submission-process name="openAIREOrganizationSubmission">
+            <step id="collection"/>
+            <step id="openAIREOrganizationForm"/>
+        </submission-process>
+    </submission-definitions>
+
+</item-submission>

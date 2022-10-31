@@ -1,0 +1,7 @@
+<a class="badge badge-primary mr-1 mb-1 text-capitalize"
+   [routerLink]="searchLink"
+   [queryParams]="(removeParameters | async)" queryParamsHandling="merge">
+   <!-- kware-edit kwareTranslatePipe -->
+    {{('search.filters.applied.' + key) | translate}}: {{'search.filters.' + (filterName | kwareTranslate) + '.' + value | kwareTranslate | translate: {default: normalizeFilterValue(value  | kwareTranslate)} }}
+    <span> ×</span>
+</a>

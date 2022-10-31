@@ -1,0 +1,32 @@
+<ds-metadata-field-wrapper [label]="label | translate">
+    <ng-container *ngFor="let mdValue of mdValues; let last=last;">
+      <ng-container *ngTemplateOutlet="(renderMarkdown ? markdown : simple); context: {value: mdValue.value, classes: 'dont-break-out preserve-line-breaks'}">
+      </ng-container>
+      <span class="separator" *ngIf="!last" [innerHTML]="separator"></span>
+    </ng-container>
+</ds-metadata-field-wrapper>
+
+<ng-template #markdown let-value="value" let-classes="classes">
+  <!-- kware-edit kwareTranslatePipe -->
+  <span style="color:#094157 ;" class="{{classes}}" [innerHTML]="value | dsMarkdown | async">
+  </span>
+</ng-template>
+
+<ng-template #simple let-value="value" let-classes="classes">
+  <span class="{{classes}}">
+    <a target="_blank"  *ngIf="check && link === 'identifierOrcid'" href="https://sandbox.orcid.org/{{value}}">
+      <!-- kware-edit kwareTranslatePipe -->
+      {{value | kwareTranslate}}<img _ngcontent-dspace-angular-c659="" placement="top" alt="orcid-logo" src="https://dspacecris7.4science.cloud/assets/images/orcid.logo.icon.svg" class="orcid-icon ng-star-inserted">
+   </a>
+<!-- kware-edit kwareTranslatePipe -->
+    <a *ngIf="check && link !== 'identifierOrcid'; else elseBlock" href="/search?query=&f.{{link}}={{value}},equals">
+        {{value | kwareTranslate }}
+     </a>
+     <ng-template  #elseBlock>
+      <!-- kware-edit kwareTranslatePipe -->
+        <span *ngIf="link !== 'identifierOrcid'" style="color:#094157 ;" >
+            {{value | kwareTranslate}}
+        </span>
+      </ng-template>
+  </span>
+</ng-template>

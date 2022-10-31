@@ -1,0 +1,361 @@
+<div class="row" *ngIf="iiifEnabled">
+  <div class="col-12">
+    <ds-mirador-viewer id="iiif-viewer"
+                   [object]="object"
+                   [searchable]="iiifSearchEnabled"
+                   [query]="iiifQuery$ | async">
+    </ds-mirador-viewer>
+  </div>
+</div>
+<div class="d-flex flex-row">
+  <ds-item-page-title-field [item]="object" class="mr-auto">
+  </ds-item-page-title-field>
+  <div class="pl-2 space-children-mr">
+    <ds-dso-page-version-button (newVersionEvent)="onCreateNewVersion()" [dso]="object"
+                                [tooltipMsgCreate]="'item.page.version.create'"
+                                [tooltipMsgHasDraft]="'item.page.version.hasDraft'"></ds-dso-page-version-button>
+    <ds-dso-page-edit-button [pageRoute]="itemPageRoute" [dso]="object" [tooltipMsg]="'item.page.edit'"></ds-dso-page-edit-button>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 col-md-4">
+    <ng-container *ngIf="!mediaViewer.image">
+      <ds-metadata-field-wrapper [hideIfNoTextContent]="false">
+        <ds-thumbnail [thumbnail]="object?.thumbnail | async"></ds-thumbnail>
+      </ds-metadata-field-wrapper>
+    </ng-container>
+    <ng-container *ngIf="mediaViewer.image">
+      <ds-media-viewer [item]="object" [videoOptions]="mediaViewer.video"></ds-media-viewer>
+    </ng-container>
+    <ds-themed-item-page-file-section [item]="object"></ds-themed-item-page-file-section>
+    <ds-item-page-date-field [item]="object"></ds-item-page-date-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.date.issuedhijri']"
+      [label]="'item.page.issuedhijri'">
+      </ds-generic-item-page-field>
+
+      <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+        [parentItem]="object"
+        [itemType]="'Person'"
+        [metadataFields]="['dc.contributor.author', 'dc.creator']"
+        [label]="'relationships.isAuthorOf' | translate">
+      </ds-metadata-representation-list>
+
+   <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.contributor.authoralternative']"
+      [label]="'item.page.authoralternative'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.contributor.nickname']"
+        [label]="'item.page.nickname'">
+        </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.contributor.advisor']"
+      [label]="'item.page.advisor'">
+      </ds-generic-item-page-field>
+
+   <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.contributor.advisoralternative']"
+      [label]="'item.page.advisoralternative'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['journal.title']"
+        [label]="'item.page.journal-title'">
+      </ds-generic-item-page-field>
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['journal.identifier.issn']"
+        [label]="'item.page.journal-issn'">
+      </ds-generic-item-page-field>
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['journalvolume.identifier.name']"
+        [label]="'item.page.volume-title'">
+      </ds-generic-item-page-field>
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.publisher']"
+        [label]="'item.page.publisher'">
+      </ds-generic-item-page-field>
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <ds-item-page-abstract-field [item]="object"></ds-item-page-abstract-field>
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.description']"
+        [label]="'item.page.description'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.contributor.organization']"
+      [label]="'item.page.organization'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.contributor.person']"
+      [label]="'item.page.person'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.identifier.isbn']"
+      [label]="'item.page.isbn'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.identifier.dcc']"
+      [label]="'item.page.ddc'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.language.iso']"
+      [label]="'item.page.language'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.source']"
+      [label]="'item.page.source'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.source.country']"
+      [label]="'item.page.country'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.type']"
+      [label]="'item.page.type'">
+      </ds-generic-item-page-field>
+
+
+
+      <!-- رسائل جامعية -->
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.relation.university']"
+      [label]="'item.page.university'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.relation.college']"
+      [label]="'item.page.college'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.relation.department']"
+      [label]="'item.page.department'">
+      </ds-generic-item-page-field>
+
+     <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.relation.specialization']"
+      [label]="'item.page.specialization'">
+      </ds-generic-item-page-field>
+
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.subject.degree']"
+      [label]="'item.page.degree'">
+      </ds-generic-item-page-field>
+
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.source.edition']"
+      [label]="'item.page.edition'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.title.alternative']"
+      [label]="'item.page.alternative'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.type.status']"
+      [label]="'item.page.status'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.publisher.country']"
+      [label]="'item.page.country'">
+      </ds-generic-item-page-field>
+
+
+
+
+          <!-- رسائل جامعية -->
+
+
+
+        <!-- مخطوطات -->
+
+
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.date.associated']"
+        [label]="'item.page.dateAssociated'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.contributor.copier']"
+        [label]="'item.page.copier'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.date.copy']"
+        [label]="'item.page.dateCopy'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.format.medium']"
+        [label]="'item.page.medium'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.relation.scientificmatters']"
+        [label]="'item.page.scientificmatters'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.relation.pests']"
+        [label]="'item.page.pests'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.relation.technicalmatters']"
+        [label]="'item.page.technicalmatters'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.relation.isimage']"
+        [label]="'item.page.isimage'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.format.paper']"
+        [label]="'item.page.papertype'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.format.inkcolor']"
+        [label]="'item.page.inkcolor'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.format.font']"
+        [label]="'item.page.fonttype'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.format.numberofpapers']"
+        [label]="'item.page.papersnumber'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.format.numberoflines']"
+        [label]="'item.page.linesnumber'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.format.dimensions']"
+        [label]="'item.page.dimensions'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.description.dottingform']"
+        [label]="'item.page.dottingForm'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.description.underlining']"
+        [label]="'item.page.underlining'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.format.puncturing']"
+        [label]="'item.page.puncturing'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.format.decor']"
+        [label]="'item.page.decor'">
+        </ds-generic-item-page-field>
+
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.description.introduction']"
+        [label]="'item.page.introduction'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.description.conclusion']"
+        [label]="'item.page.conclusion'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.description.note']"
+        [label]="'item.page.note'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.description.tableofcontents']"
+        [label]="'item.page.tableofcontents'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.description.usagerestrictions']"
+        [label]="'item.page.usagerestrictions'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.description.maintenance']"
+        [label]="'item.page.maintenance'">
+        </ds-generic-item-page-field>
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.description.isrelated']"
+        [label]="'item.page.isrelated'">
+        </ds-generic-item-page-field>
+
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.description.statementofresponsibility']"
+        [label]="'item.page.statementofresponsibility'">
+        </ds-generic-item-page-field>
+
+
+        <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.relation.isversionof']"
+        [label]="'item.page.isversionof'">
+        </ds-generic-item-page-field>
+
+
+
+
+
+
+
+
+
+
+
+
+         <!-- مخطوطات -->
+
+
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.subject']"
+        [separator]="','"
+        [label]="'item.page.subject'">
+      </ds-generic-item-page-field>
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.identifier.citation']"
+        [label]="'item.page.citation'">
+      </ds-generic-item-page-field>
+      <ds-item-page-uri-field [item]="object"
+        [fields]="['dc.identifier.uri']"
+        [label]="'item.page.uri'">
+      </ds-item-page-uri-field>
+    <ds-item-page-collections [item]="object"></ds-item-page-collections>
+    <div *ngIf="(isAuthorized$ | async)">
+      <a class="btn btn-outline-primary" [routerLink]="[itemPageRoute + '/full']" role="button">
+        <i class="fas fa-info-circle"></i> {{"item.page.link.full" | translate}}
+      </a>
+    </div>
+  </div>
+</div>

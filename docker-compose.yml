@@ -1,0 +1,88 @@
+version: "3.9"
+services:
+  dspace_v7.4_api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      args:
+        - Tomcat_V_Arg=9.0.68
+        - SOURCE_TYPE_ARG=local
+        - COMPILED_MODE_ARG=new
+    ports:
+      - "7077:8080"
+    container_name: dspace_v7.4_api
+    image: dspace_v7.4_api
+    environment:
+        - DS_HOST=http://10.22.6.211:7077
+        - DS_NAME=DSpace 7 demo from knowledgeWare(Dev-server)
+        - DS_UI_HOST=http://10.22.6.211:4007
+        - DS_SOLR_HOST=10.22.6.211
+        - DS_SOLR_PORT=8991
+          ##DB ENVs:
+        - DB_PRE_CONFIG=false
+        - DB_HOST=10.22.6.211
+        - DB_ADMIN_USER=postgres
+        - DB_ADMIN_PASS=Kwaretech2022#
+        - DB_NAME=dspace7_4_db
+        - DB_USER=dspace7_4_db
+        - DB_PASS=dspace7_4_db
+          ##Mail Server ENVs:
+        - mail_server=smtp.gmail.com
+        - mail_username=dspace@kwareict.com
+        - mail_password=Kware@2021#
+        - mail_port=587
+        - Mail_Admin_Name='Kware Admin'
+        - notify_mail_server=dspace@kwareict.com
+          #CONFIGURE IIIF SERVER ON DSPACE:
+        - iiif_server=https://iiif.kwaretech.com/iiif/3/
+    stdin_open: true
+    tty: true
+    restart: always
+    volumes:
+        - ./backend/volumes/compiled_files:/dspace
+        - ./backend/volumes/tomcat_logs:/usr/local/tomcat/logs
+
+  # dspace_v7.4_solr:
+  #   build:
+  #     context: ./solr
+  #     dockerfile: Dockerfile
+  #   container_name: dspace_v7.4_solr
+  #   image: dspace_v7.4_solr
+  #   ports:
+  #     - "8991:8983"
+  #   stdin_open: true
+  #   tty: true
+  #   restart: always
+  #   volumes:
+  #     - ./solr/dspace_solr_core:/opt/solr/server/solr/configsets
+
+  # dspace_v7.4_ui:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: Dockerfile
+  #     args:
+  #       - DS_UI_HOST=0.0.0.0
+  #       - DS_UI_PORT=4000
+  #       - DS_UI_SSL=false
+  #       - DS_REST_HOST=http://10.22.6.211:7077
+  #       - DS_REST_PORT=7077
+  #       - DS_REST_SSL=false
+  #       - DEFAULT_LANGUAGE=ar
+  #   environment:
+  #     - DS_UI_HOST=0.0.0.0
+  #     - DS_UI_PORT=4000
+  #     - DS_UI_SSL=false
+  #     ##Make sure your REST_HOST not contains https:// or http://
+  #     - DS_REST_HOST=10.22.6.211
+  #     - DS_REST_PORT=7077
+  #     - DS_REST_SSL=false
+  #     - DEFAULT_LANGUAGE=ar
+  #   container_name: dspace_v7.4_ui
+  #   image: dspace_v7.4_ui
+  #   ports:
+  #     - "4007:4000"
+  #   stdin_open: true
+  #   tty: true
+  #   restart: always
+  #   volumes:
+  #     - ./frontend/source:/usr/local/dspace7/source

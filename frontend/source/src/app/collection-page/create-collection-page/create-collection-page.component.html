@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 pb-4">
+          <!-- kware-edit kwareTranslatePipe -->
+            <h2 id="sub-header" class="border-bottom pb-2">{{'collection.create.sub-head' | translate:{ parent: (parentRD$| async)?.payload.name | kwareTranslate } }}</h2>
+            <!-- kware-edit end  -->
+        </div>
+    </div>
+    <ds-collection-form (submitForm)="onSubmit($event)"
+                        (back)="navigateToHome()"
+                        (finish)="navigateToNewPage()"></ds-collection-form>
+</div>

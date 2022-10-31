@@ -1,0 +1,257 @@
+nav.navbar {
+  border-top: 1px var(--ds-header-navbar-border-top-color) solid;
+  border-bottom: 5px var(--bs-green) solid;
+  align-items: baseline;
+  color: var(--ds-header-icon-color);
+
+}
+
+/** Mobile menu styling **/
+@media screen and (max-width: map-get($grid-breakpoints, md)) {
+  .navbar {
+    width: 100%;
+    background-color: var(--bs-white);
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+    &.open {
+      height: 100vh; //doesn't matter because wrapper is sticky
+    }
+  }
+}
+
+@media screen and (min-width: map-get($grid-breakpoints, md)) {
+  .reset-padding-md {
+    margin-left: calc(var(--bs-spacer) / -2);
+    margin-right: calc(var(--bs-spacer) / -2);
+  }
+}
+
+/* TODO remove when https://github.com/twbs/bootstrap/issues/24726 is fixed */
+.navbar-expand-md.navbar-container {
+  @media screen and (max-width: map-get($grid-breakpoints, md)) {
+    > .container {
+      padding: 0 var(--bs-spacer);
+      a.navbar-brand {
+        display: none;
+      }
+      .navbar-collapsed {
+        display: none;
+      }
+    }
+    padding: 0;
+  }
+  height: 80px;
+}
+
+a.navbar-brand img {
+  //  max-height: var(--ds-header-logo-height);
+    width: 70px; //NU-edit
+   height: 50px; //NU-edit
+
+
+
+
+}
+
+.navbar-nav {
+  ::ng-deep a.nav-link {
+    color: var(--ds-navbar-link-color);
+  }
+  ::ng-deep a.nav-link:hover {
+    color: var(--ds-navbar-link-color-hover);
+  }
+}
+
+
+
+nav{
+  background-color: #fff !important; //NU-edit
+  position: fixed !important;
+  width: 100%;
+
+
+}
+
+
+////////////////////////////////////////////////////////////////////
+
+
+
+
+
+//  .navbar-brand {
+
+//   width: 600px;
+//   display: block;
+//   height: auto;
+//   padding: 20px 0;
+
+// }
+// .navbar-default .navbar-brand {
+//   color: #777;
+// }
+// a:visited {
+//   color: #663399;
+//   text-decoration: none;
+// }
+// .navbar-brand {
+
+//   float: left;
+//   height: 100px;
+//   padding: 15px 15px;
+//   font-size: 18px;
+//   line-height: 20px;
+// }
+// a, .ms-link:visited {
+//   color: #0072c6;
+//   text-decoration: none;
+// }
+// a {
+//   color: #337ab7;
+//   text-decoration: none;
+// }
+// a {
+//   background-color: transparent;
+// }
+
+
+
+// //  .logo-area {
+// //   overflow: hidden;
+// // }
+
+
+//  .logo-area .main-logo {
+//   float: right;
+// }
+//  .logo-area .main-logo {
+//   width: 100px;
+//   float: left;
+//   padding-top: 0px;
+// }
+// img {
+//   border: none;
+//   -webkit-tap-highlight-color: transparent;
+// }
+// img {
+//   vertical-align: middle;
+// }
+// img {
+//   border: 0;
+// }
+
+
+
+//  .logo-area .imam-info {
+
+
+//   float: right;
+//   text-align: center;
+//   padding-left: 0;
+//   padding-right: 10px;
+//   margin-left: 0;
+//   margin-right: 10px;
+//   border-left: 0;
+//   border-right: 1px solid #CCC;
+// }
+//  .logo-area .imam-info {
+//   float: left;
+//   width: calc(100% - 200px);
+//   padding-left: 10px;
+//   border-left: 1px solid #CCC;
+//   margin-left: 10px;
+//   margin-top: 0;
+//   text-align: left;
+//   border-right: none;
+//   margin-right: 0;
+//   padding-right: 0;
+// }
+
+
+
+
+
+
+// .navbar-nav{
+// margin-left: 40px;
+
+// }
+
+
+
+
+//  .logo-area .imam-info h3 {
+//   font-size: 14px;
+//   font-weight: 600;
+//   margin: 10px 0 0;
+//   color: #2a8f99;
+// }
+
+
+//  .logo-area .imam-info p {
+//   font-size: 12px;
+//   color: #2a8f99;
+// }
+//  .logo-area .imam-info p {
+
+//   margin-top: 6px;
+//   font-weight: bold;
+//   color: #2a8f99;
+//   font-size: 14px;
+//   margin-bottom: 5px;
+// }
+// p {
+//   margin: 0 0 10px;
+// }
+
+
+//  .main-logo{
+//   margin-top: -10px;
+//  }
+
+// ::ng-deep html[dir="rtl"]{
+//   .main-logo{float: right !important;
+//     margin-top: -15px;
+//     margin-right: 20px !important;
+//   }
+
+//   .imam-info{
+//     float: unset !important;
+//     padding-right: 50px;
+//   }
+//   .country{ margin-left: -175px !important ;}
+
+// .ministry{
+//   margin-left: -95px !important;
+// }
+
+//   .imam-info p{
+//     margin-left: -160px;
+//   }
+
+
+
+// }
+
+
+
+
+
+
+
+
+// .container{
+
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: space-between;
+
+
+//     width: 100%;
+//     max-width: 1250px;
+//     z-index: 1;
+//     position: relative;
+
+// }

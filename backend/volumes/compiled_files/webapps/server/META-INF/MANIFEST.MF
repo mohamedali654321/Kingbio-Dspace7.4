@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.4.0
+Build-Jdk-Spec: 11
+Specification-Title: DSpace Server Webapp:: Local Customizations
+Specification-Version: 7.4
+Specification-Vendor: LYRASIS
+Implementation-Title: DSpace Server Webapp:: Local Customizations
+Implementation-Version: 7.4
+Implementation-Vendor: LYRASIS
+

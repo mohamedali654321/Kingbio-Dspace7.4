@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<import_structure>
+  <community identifier="123456789/262">
+    <name>Cultural Digital Libraries | المكتبات الرقمية الثقافية</name>
+    <description />
+    <intro />
+    <copyright />
+    <sidebar />
+  </community>
+  <community identifier="123456789/264">
+    <name>Digital Repository of Al-madinah Al-munawarah Research &amp; Studies Center | المستودع الرقمي لمركز بحوث و دراسات المدينة المنورة</name>
+    <description />
+    <intro />
+    <copyright />
+    <sidebar />
+    <community identifier="123456789/282">
+      <name>Center Publications | منشورات المركز</name>
+      <description />
+      <intro />
+      <copyright />
+      <sidebar />
+    </community>
+    <community identifier="123456789/283">
+      <name>Profile of Departments and Authors | بروفايل الإدارات والمؤلفين</name>
+      <description />
+      <intro />
+      <copyright />
+      <sidebar />
+    </community>
+  </community>
+  <community identifier="123456789/269">
+    <name>Digital Repository of the Center for Research and knowledge networking | المستودع الرقمي لمركز البحوث و التواصل المعرفي</name>
+    <description />
+    <intro />
+    <copyright />
+    <sidebar />
+    <community identifier="123456789/272">
+      <name>Center Publications | منشورات المركز</name>
+      <description />
+      <intro />
+      <copyright />
+      <sidebar />
+      <collection identifier="123456789/273">
+        <name>Conference Proceedings and Presentations | وقائع وأوراق مؤتمرات</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/274">
+        <name>Journal Issues | أعداد دوريات</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/276">
+        <name>Journals | دوريات</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/277">
+        <name>Manuscripts | مخطوطات</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/278">
+        <name>Multimedia | وسائط متعددة</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/279">
+        <name>Publications | منشورات</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/275">
+        <name>Volumes Associated with Journals | مجلدات تابعة لدوريات</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+    </community>
+    <community identifier="123456789/270">
+      <name>Profile of Departments and Authors | بروفايل الإدارات والمؤلفين</name>
+      <description />
+      <intro />
+      <copyright />
+      <sidebar />
+      <collection identifier="123456789/286">
+        <name>Research and Administration Units | الإدارات البحثية والإدارية</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/285">
+        <name>ِResearchers and Administrators Profiles | بروفايل الباحثين والإداريين</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+    </community>
+  </community>
+  <community identifier="123456789/249">
+    <name>Imam University Institutional Digital Repository | المستودع الرقمي المؤسسي في جامعة الإمام محمد بن سعود الإسلامية</name>
+    <description />
+    <intro />
+    <copyright />
+    <sidebar />
+    <community identifier="123456789/157">
+      <name>Departments and Author Profiles | بروفايل الإدارات والمؤلفين</name>
+      <description />
+      <intro>Departments and Author Profiles | بروفايل الإدارات والمؤلفين</intro>
+      <copyright />
+      <sidebar />
+      <collection identifier="123456789/160">
+        <name>Academic and Administrative Profiles | بروفايل الأكاديميين والإداريين</name>
+        <description>Items representing various Faculty and Student Authors within the University | مواد تمثل أشخاص مختلفين من هيئة أعضاء التدريس والمؤلفين الطلبة في الجامعة</description>
+        <intro>Academic and Administrative Profiles | بروفايل الأقسام الأكاديمية والإدارية</intro>
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/161">
+        <name>Research and Administration Units | الإدارات البحثية والإدارية</name>
+        <description>Items representing various Orginizations within the University | مواد تمثل ادارات مختلفة داخل الجامعة</description>
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+    </community>
+    <community identifier="123456789/158">
+      <name>Student Research | أبحاث الطلبة</name>
+      <description />
+      <intro>Student Research | أبحاث الطلبة</intro>
+      <copyright />
+      <sidebar />
+      <collection identifier="123456789/162">
+        <name>Creative Components | أعمال إبداعية</name>
+        <description>Creative Components | منتجات ابداعية</description>
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/163">
+        <name>Theses and Dissertations | رسائل وأطروحات</name>
+        <description>General Collection for Theses, Dissertations | حاوية عامة لاحتواء الرسائل والأطروحات</description>
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+    </community>
+    <community identifier="123456789/159">
+      <name>University Scholarship | منح جامعية</name>
+      <description />
+      <intro>University Scholarship | منح جامعية</intro>
+      <copyright />
+      <sidebar />
+      <collection identifier="123456789/165">
+        <name>Conference Proceedings and Presentations | وقائع وأوراق مؤتمرات</name>
+        <description>General Collection for Conference Proceedings and Presentations | حاوية عامة لوقائع وأوراق مؤتمرات</description>
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/166">
+        <name>Journal Issues | أعداد دوريات</name>
+        <description>Issues Associated with Journal Volumes | أعداد تابعة لمجلدات دوريات</description>
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/167">
+        <name>Journal Volumes | مجلدات دوريات</name>
+        <description>Volumes Associated with Journals | مجلدات تابعة لدوريات</description>
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/168">
+        <name>Journals | دوريات</name>
+        <description>Top Level Journal Descriptions | مستوى أعلى لواصفات الدوريات</description>
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/171">
+        <name>Manuscripts | مخطوطات</name>
+        <description>General collection for Manuscripts | حاوية عامة للمخطوطات</description>
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/169">
+        <name>Multimedia | وسائط متعددة</name>
+        <description>General Collection for Multimedia | حاوية عامة للوسائط المتعددة</description>
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/164">
+        <name>Publications | منشورات</name>
+        <description>General Collection for Publications | مجموعة عامة للمنشورات</description>
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/170">
+        <name>Series | سلاسل</name>
+        <description>Various Series, Conferences, Galleries and Collections | سلاسل، ومؤتمرات، وعروض، وحاويات مختلفة</description>
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+    </community>
+  </community>
+  <community identifier="123456789/250">
+    <name>King Abdulaziz Complex for Endowment Libraries | مجمع الملك عبدالعزيز للمكتبات الوقفية</name>
+    <description />
+    <intro />
+    <copyright />
+    <sidebar />
+    <community identifier="123456789/252">
+      <name>Complex Endownment Resources | موارد المجمّع الوقفية</name>
+      <description />
+      <intro />
+      <copyright />
+      <sidebar />
+      <collection identifier="123456789/261">
+        <name>Manuscripts | مخطوطات</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/260">
+        <name>Precious Holdings | مقتنيات ثمينة</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/259">
+        <name>Rare Books | كتب نادرة</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/258">
+        <name>The Holy Quran | المصحف الشريف</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+    </community>
+    <community identifier="123456789/251">
+      <name>People, Organizations, Events, Places, and Eras Profiles | بروفايل الأشخاص والمؤسسات والأحداث والأماكن والحقبات الزمنية</name>
+      <description />
+      <intro />
+      <copyright />
+      <sidebar />
+      <collection identifier="123456789/256">
+        <name>Eras | حقبات زمنية</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/257">
+        <name>Events | أحداث</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/254">
+        <name>Orgnizations | مؤسسات</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/253">
+        <name>People | أشخاص</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/255">
+        <name>Places | أماكن</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/280">
+        <name>Projects | مشاريع</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+      <collection identifier="123456789/281">
+        <name>Seriels | سلاسل</name>
+        <description />
+        <intro />
+        <copyright />
+        <sidebar />
+        <license />
+      </collection>
+    </community>
+  </community>
+  <community identifier="123456789/263">
+    <name>Special Digital Libraries | المكتبات الرقمية المتخصصة</name>
+    <description />
+    <intro />
+    <copyright />
+    <sidebar />
+  </community>
+</import_structure>

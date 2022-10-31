@@ -1,0 +1,22 @@
+<div>
+  <!-- kware-edit kwareTranslatePipe -->
+  <div class="modal-header">{{ headerLabel | translate:{dsoName: dso?.name | kwareTranslate} }}
+    <button type="button" class="close" (click)="close()" aria-label="Close">
+      <span aria-hidden="true">×</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <!-- kware-edit kwareTranslatePipe -->
+    <p>{{ infoLabel | translate:{dsoName: dso?.name | kwareTranslate} }}</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="cancel btn btn-outline-secondary" (click)="cancelPressed()" aria-label="Cancel">
+      <!-- kware-edit kwareTranslatePipe -->
+      <i class="fas fa-times"></i> {{ cancelLabel | translate:{dsoName: dso?.name | kwareTranslate} }}
+    </button>
+    <button type="button" class="confirm btn btn-{{brandColor}}" (click)="confirmPressed()" aria-label="Confirm" ngbAutofocus>
+      <!-- kware-edit kwareTranslatePipe -->
+      <i *ngIf="confirmIcon" class="{{confirmIcon}}"></i> {{ confirmLabel | translate:{dsoName: dso?.name | kwareTranslate} }}
+    </button>
+  </div>
+</div>

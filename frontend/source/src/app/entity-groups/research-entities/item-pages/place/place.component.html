@@ -1,0 +1,136 @@
+<div class="d-flex flex-row">
+    <ds-item-page-title-field [item]="object" class="mr-auto">
+    </ds-item-page-title-field>
+    <div class="pl-2 space-children-mr">
+      <ds-dso-page-version-button (newVersionEvent)="onCreateNewVersion()" [dso]="object"
+                                  [tooltipMsgCreate]="'item.page.version.create'"
+                                  [tooltipMsgHasDraft]="'item.page.version.hasDraft'"></ds-dso-page-version-button>
+      <ds-dso-page-edit-button [pageRoute]="itemPageRoute" [dso]="object" [tooltipMsg]="'orgunit.page.edit'"></ds-dso-page-edit-button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-md-4">
+      <ds-metadata-field-wrapper [hideIfNoTextContent]="false">
+        <ds-thumbnail [thumbnail]="object?.thumbnail | async"
+                      [defaultImage]="'assets/images/place-placehplder.svg'"
+                      [alt]="'thumbnail.orgunit.alt'"
+                      [placeholder]="'thumbnail.orgunit.placeholder'"
+        >
+        </ds-thumbnail>
+      </ds-metadata-field-wrapper>
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['place.oldName']"
+        [label]="'place.page.oldName'">
+      </ds-generic-item-page-field>
+
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['place.globalLocationNumber']"
+      [label]="'place.page.globalLocationNumber'">
+    </ds-generic-item-page-field>
+    
+      
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['place.branchCode']"
+      [label]="'place.page.branchCode'">
+    </ds-generic-item-page-field>
+
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['place.telephone']"
+    [label]="'place.page.telephone'">
+  </ds-generic-item-page-field>
+
+  <ds-generic-item-page-field [item]="object"
+  [fields]="['place.address']"
+  [label]="'place.page.address'">
+</ds-generic-item-page-field>
+
+
+
+    </div>
+    <div class="col-xs-12 col-md-6">
+
+<ds-related-items
+      [parentItem]="object"
+      [relationType]="'isOrgUnitOfPlace'"
+      [label]="'relationships.isOrgUnitOf' | translate">
+    </ds-related-items>
+      <ds-related-items
+        [parentItem]="object"
+        [relationType]="'isEventOfPlace'"
+        [label]="'relationships.isEventOf' | translate">
+      </ds-related-items>
+
+
+<ds-related-items
+      [parentItem]="object"
+      [relationType]="'isPublicationOfPlace'"
+      [label]="'relationships.isPublicationOf' | translate">
+    </ds-related-items>
+
+      <ds-related-items
+      [parentItem]="object"
+      [relationType]="'isEraOfPlace'"
+      [label]="'relationships.isEraOf' | translate">
+    </ds-related-items>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.description']"
+      [label]="'place.page.description'">
+    </ds-generic-item-page-field>
+    
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['place.latitude']"
+        [label]="'place.page.latitude'">
+      </ds-generic-item-page-field>
+
+      <ds-generic-item-page-field [item]="object"
+      [fields]="['place.longitude']"
+      [label]="'place.page.longitude'">
+    </ds-generic-item-page-field>
+
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['place.openingHoursSpecification']"
+    [label]="'place.page.openingHoursSpecification'">
+  </ds-generic-item-page-field>
+
+
+  <ds-generic-item-page-field [item]="object"
+  [fields]="['place.publicAccess']"
+  [label]="'place.page.publicAccess'">
+</ds-generic-item-page-field>
+
+<ds-generic-item-page-field [item]="object"
+[fields]="['dc.subject']"
+[separator]="','"
+[label]="'item.page.subject'">
+</ds-generic-item-page-field>
+
+
+      <div>
+        <a class="btn btn-outline-primary" [routerLink]="[itemPageRoute + '/full']">
+          {{"item.page.link.full" | translate}}
+        </a>
+      </div>
+    </div>
+    <div class="mt-5 w-100">
+      <!-- <ds-tabbed-related-entities-search  [item]="object"
+                                          [relationTypes]="[{
+                                            label: 'isOrgUnitOfPerson',
+                                            filter: 'isOrgUnitOfPerson',
+                                            configuration: 'person-relationships'
+                                          },
+                                          {
+                                            label: 'isChildOfOrgUnit',
+                                            filter: 'isOrgUnitOfSubOrgUnit',
+                                            configuration: 'orgunit-relationships'
+                                          },
+                                          {
+                                            label: 'isOrgUnitOfProject',
+                                            filter: 'isOrgUnitOfProject',
+                                            configuration: 'project-relationships'
+                                          }]">
+      </ds-tabbed-related-entities-search> -->
+    </div>
+  </div>
+  

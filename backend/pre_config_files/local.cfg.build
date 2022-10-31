@@ -1,0 +1,19 @@
+##########################
+# DATABASE CONFIGURATION #
+##########################
+
+# URL for connecting to database
+db.url = jdbc:postgresql://$DB_HOST:5432/$DB_NAME
+
+# JDBC Driver
+db.driver = org.postgresql.Driver
+
+# Database Dialect (for Hibernate)
+db.dialect = org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+
+# Database username and password
+db.username = $DB_USER
+db.password = $DB_PASS
+
+# Database Schema name
+db.schema = public

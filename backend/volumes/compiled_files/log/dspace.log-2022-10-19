@@ -1,0 +1,81 @@
+2022-10-20 00:00:09,014 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-20 00:00:11,733 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-20 00:00:11,910 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-20 00:00:11,926 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-20 00:00:11,960 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-20 00:00:12,057 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-20 00:00:32,501 INFO  unknown unknown org.ehcache.xml.XmlConfiguration @ Loading Ehcache XML configuration from /dspace/config/ehcache.xml.
+2022-10-20 00:00:37,145 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 4MB in chunks
+2022-10-20 00:00:37,449 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'sherpa.searchByJournalISSN' created in Eh107InternalCacheManager.
+2022-10-20 00:00:37,511 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 10.0MB in chunks
+2022-10-20 00:00:37,570 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'manifests' created in Eh107InternalCacheManager.
+2022-10-20 00:00:37,613 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 4MB in chunks
+2022-10-20 00:00:37,654 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'canvasdimensions' created in Eh107InternalCacheManager.
+2022-10-20 00:00:38,052 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=sherpa.searchByJournalISSN
+2022-10-20 00:00:38,063 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=manifests
+2022-10-20 00:00:38,063 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=canvasdimensions
+2022-10-20 00:00:38,144 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=sherpa.searchByJournalISSN
+2022-10-20 00:00:38,149 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=manifests
+2022-10-20 00:00:38,150 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=canvasdimensions
+2022-10-20 00:00:39,841 INFO  unknown unknown org.eclipse.jetty.util.log @ Logging initialized @38710ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-20 00:00:41,996 INFO  unknown unknown org.dspace.importer.external.service.ImportService @ Loading 6 import sources.
+2022-10-20 00:00:52,862 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation should only be used on methods with parameters: public java.lang.String org.dspace.storage.bitstore.S3BitStoreService.getBucketName()
+2022-10-20 00:00:57,709 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation is not supported on static methods: public static void org.dspace.rdf.storage.DOIURIGenerator.setFallback(org.dspace.rdf.storage.URIGenerator)
+2022-10-20 00:00:57,786 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation is not supported on static methods: public static void org.dspace.rdf.storage.DOIHandleURIGenerator.setFallback(org.dspace.rdf.storage.URIGenerator)
+2022-10-20 00:01:00,083 WARN  unknown unknown org.dspace.servicemanager.DSpaceServiceManager @ Unable to locate bean by name or id=oai. Will try to look up bean by type next.
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'oai' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:872) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1344) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1160) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.dspace.servicemanager.DSpaceServiceManager.getServiceByName(DSpaceServiceManager.java:426) [dspace-services-7.4.jar:7.4]
+	at org.dspace.scripts.ScriptServiceImpl.getScriptConfiguration(ScriptServiceImpl.java:33) [dspace-api-7.4.jar:7.4]
+	at org.dspace.app.launcher.ScriptLauncher.handleScript(ScriptLauncher.java:125) [dspace-api-7.4.jar:7.4]
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:98) [dspace-api-7.4.jar:7.4]
+2022-10-20 00:01:14,120 INFO  unknown unknown org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: classpath:org/dspace/storage/rdbms/sqlmigration/postgres, classpath:org/dspace/storage/rdbms/migration, classpath:org/dspace/storage/rdbms/xmlworkflow
+2022-10-20 00:01:14,923 INFO  unknown unknown org.flywaydb.core.internal.license.VersionPrinter @ Flyway Community Edition 8.4.4 by Redgate
+2022-10-20 00:01:14,924 INFO  unknown unknown org.flywaydb.core.internal.database.base.BaseDatabaseType @ Database: jdbc:postgresql://52.209.192.143:5432/dspace74 (PostgreSQL 12.10)
+2022-10-20 00:01:16,197 INFO  unknown unknown org.flywaydb.core.internal.license.VersionPrinter @ Flyway Community Edition 8.4.4 by Redgate
+2022-10-20 00:01:16,583 INFO  unknown unknown org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2022-10-20 00:01:16,643 INFO  unknown unknown org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2022-10-20 00:01:17,246 INFO  unknown unknown org.hibernate.Version @ HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-10-20 00:01:19,229 INFO  unknown unknown org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-20 00:01:20,518 INFO  unknown unknown org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-10-20 00:01:22,751 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.content.Collection]. Please see the Hibernate documentation for proper usage.
+2022-10-20 00:01:22,783 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.content.Community]. Please see the Hibernate documentation for proper usage.
+2022-10-20 00:01:22,990 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.content.Site]. Please see the Hibernate documentation for proper usage.
+2022-10-20 00:01:23,019 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.eperson.EPerson]. Please see the Hibernate documentation for proper usage.
+2022-10-20 00:01:23,044 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.eperson.Group]. Please see the Hibernate documentation for proper usage.
+2022-10-20 00:01:25,166 INFO  unknown unknown org.ehcache.xml.XmlConfiguration @ Loading Ehcache XML configuration from /dspace/config/hibernate-ehcache-config.xml.
+2022-10-20 00:01:26,676 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataSchema' created in Eh107InternalCacheManager.
+2022-10-20 00:01:26,723 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-query-results-region' created in Eh107InternalCacheManager.
+2022-10-20 00:01:26,742 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataField' created in Eh107InternalCacheManager.
+2022-10-20 00:01:26,768 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Site' created in Eh107InternalCacheManager.
+2022-10-20 00:01:26,787 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.EPerson' created in Eh107InternalCacheManager.
+2022-10-20 00:01:26,811 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Community' created in Eh107InternalCacheManager.
+2022-10-20 00:01:26,830 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-update-timestamps-region' created in Eh107InternalCacheManager.
+2022-10-20 00:01:26,849 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Collection' created in Eh107InternalCacheManager.
+2022-10-20 00:01:26,858 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.Group' created in Eh107InternalCacheManager.
+2022-10-20 00:01:26,950 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.MetadataSchema
+2022-10-20 00:01:26,955 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.Community
+2022-10-20 00:01:26,956 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=default-query-results-region
+2022-10-20 00:01:26,956 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.MetadataField
+2022-10-20 00:01:26,956 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=default-update-timestamps-region
+2022-10-20 00:01:26,957 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.Collection
+2022-10-20 00:01:26,957 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.Site
+2022-10-20 00:01:26,957 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.eperson.EPerson
+2022-10-20 00:01:26,957 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.eperson.Group
+2022-10-20 00:01:27,374 INFO  unknown unknown org.hibernate.validator.internal.util.Version @ HV000001: Hibernate Validator 6.0.23.Final
+2022-10-20 00:01:40,214 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataSchema' removed from Eh107InternalCacheManager.
+2022-10-20 00:01:40,221 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-query-results-region' removed from Eh107InternalCacheManager.
+2022-10-20 00:01:40,221 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataField' removed from Eh107InternalCacheManager.
+2022-10-20 00:01:40,223 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Community' removed from Eh107InternalCacheManager.
+2022-10-20 00:01:40,223 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-update-timestamps-region' removed from Eh107InternalCacheManager.
+2022-10-20 00:01:40,224 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Collection' removed from Eh107InternalCacheManager.
+2022-10-20 00:01:40,224 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Site' removed from Eh107InternalCacheManager.
+2022-10-20 00:01:40,225 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.EPerson' removed from Eh107InternalCacheManager.
+2022-10-20 00:01:40,225 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.Group' removed from Eh107InternalCacheManager.
+2022-10-20 00:01:40,376 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'sherpa.searchByJournalISSN' removed from Eh107InternalCacheManager.
+2022-10-20 00:01:40,383 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'manifests' removed from Eh107InternalCacheManager.
+2022-10-20 00:01:40,385 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'canvasdimensions' removed from Eh107InternalCacheManager.

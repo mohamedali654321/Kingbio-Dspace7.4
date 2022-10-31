@@ -1,0 +1,965 @@
+2022-10-23 00:00:11,399 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 00:00:13,691 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 00:00:13,910 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 00:00:13,937 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 00:00:13,991 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 00:00:14,101 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 00:00:32,046 INFO  unknown unknown org.ehcache.xml.XmlConfiguration @ Loading Ehcache XML configuration from /dspace/config/ehcache.xml.
+2022-10-23 00:00:36,390 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 4MB in chunks
+2022-10-23 00:00:36,586 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'sherpa.searchByJournalISSN' created in Eh107InternalCacheManager.
+2022-10-23 00:00:36,637 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 10.0MB in chunks
+2022-10-23 00:00:36,658 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'manifests' created in Eh107InternalCacheManager.
+2022-10-23 00:00:36,696 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 4MB in chunks
+2022-10-23 00:00:36,723 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'canvasdimensions' created in Eh107InternalCacheManager.
+2022-10-23 00:00:37,004 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=sherpa.searchByJournalISSN
+2022-10-23 00:00:37,019 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=manifests
+2022-10-23 00:00:37,026 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=canvasdimensions
+2022-10-23 00:00:37,122 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=sherpa.searchByJournalISSN
+2022-10-23 00:00:37,140 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=manifests
+2022-10-23 00:00:37,144 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=canvasdimensions
+2022-10-23 00:00:38,425 INFO  unknown unknown org.eclipse.jetty.util.log @ Logging initialized @36779ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-23 00:00:40,381 INFO  unknown unknown org.dspace.importer.external.service.ImportService @ Loading 6 import sources.
+2022-10-23 00:00:51,694 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation should only be used on methods with parameters: public java.lang.String org.dspace.storage.bitstore.S3BitStoreService.getBucketName()
+2022-10-23 00:00:56,389 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation is not supported on static methods: public static void org.dspace.rdf.storage.DOIURIGenerator.setFallback(org.dspace.rdf.storage.URIGenerator)
+2022-10-23 00:00:56,466 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation is not supported on static methods: public static void org.dspace.rdf.storage.DOIHandleURIGenerator.setFallback(org.dspace.rdf.storage.URIGenerator)
+2022-10-23 00:01:02,106 INFO  unknown unknown org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: classpath:org/dspace/storage/rdbms/sqlmigration/postgres, classpath:org/dspace/storage/rdbms/migration, classpath:org/dspace/storage/rdbms/xmlworkflow
+2022-10-23 00:01:02,862 INFO  unknown unknown org.flywaydb.core.internal.license.VersionPrinter @ Flyway Community Edition 8.4.4 by Redgate
+2022-10-23 00:01:02,888 INFO  unknown unknown org.flywaydb.core.internal.database.base.BaseDatabaseType @ Database: jdbc:postgresql://52.209.192.143:5432/dspace74 (PostgreSQL 12.10)
+2022-10-23 00:01:04,083 INFO  unknown unknown org.flywaydb.core.internal.license.VersionPrinter @ Flyway Community Edition 8.4.4 by Redgate
+2022-10-23 00:01:04,489 INFO  unknown unknown org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2022-10-23 00:01:04,577 INFO  unknown unknown org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2022-10-23 00:01:05,266 INFO  unknown unknown org.hibernate.Version @ HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-10-23 00:01:08,082 INFO  unknown unknown org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-23 00:01:09,231 INFO  unknown unknown org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-10-23 00:01:11,209 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.content.Collection]. Please see the Hibernate documentation for proper usage.
+2022-10-23 00:01:11,232 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.content.Community]. Please see the Hibernate documentation for proper usage.
+2022-10-23 00:01:11,476 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.content.Site]. Please see the Hibernate documentation for proper usage.
+2022-10-23 00:01:11,507 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.eperson.EPerson]. Please see the Hibernate documentation for proper usage.
+2022-10-23 00:01:11,511 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.eperson.Group]. Please see the Hibernate documentation for proper usage.
+2022-10-23 00:01:13,448 INFO  unknown unknown org.ehcache.xml.XmlConfiguration @ Loading Ehcache XML configuration from /dspace/config/hibernate-ehcache-config.xml.
+2022-10-23 00:01:15,744 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataSchema' created in Eh107InternalCacheManager.
+2022-10-23 00:01:15,771 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-query-results-region' created in Eh107InternalCacheManager.
+2022-10-23 00:01:15,781 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataField' created in Eh107InternalCacheManager.
+2022-10-23 00:01:15,794 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Site' created in Eh107InternalCacheManager.
+2022-10-23 00:01:15,806 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.EPerson' created in Eh107InternalCacheManager.
+2022-10-23 00:01:15,836 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Community' created in Eh107InternalCacheManager.
+2022-10-23 00:01:15,847 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-update-timestamps-region' created in Eh107InternalCacheManager.
+2022-10-23 00:01:15,849 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Collection' created in Eh107InternalCacheManager.
+2022-10-23 00:01:15,850 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.Group' created in Eh107InternalCacheManager.
+2022-10-23 00:01:15,953 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.MetadataSchema
+2022-10-23 00:01:15,953 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.Community
+2022-10-23 00:01:15,953 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=default-query-results-region
+2022-10-23 00:01:15,954 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.MetadataField
+2022-10-23 00:01:15,954 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=default-update-timestamps-region
+2022-10-23 00:01:15,954 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.Collection
+2022-10-23 00:01:15,954 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.Site
+2022-10-23 00:01:15,954 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.eperson.EPerson
+2022-10-23 00:01:15,955 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.eperson.Group
+2022-10-23 00:01:16,321 INFO  unknown unknown org.hibernate.validator.internal.util.Version @ HV000001: Hibernate Validator 6.0.23.Final
+2022-10-23 00:01:28,049 INFO  unknown unknown org.dspace.scripts.handler.impl.CommandLineDSpaceRunnableHandler @ Updating Index
+2022-10-23 00:01:32,003 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-5607bc3f-3a79-401d-889a-44616f7c15fd
+2022-10-23 00:01:32,176 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-091814cf-94e7-4095-b02f-54f7cc8b959f
+2022-10-23 00:01:32,331 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-3131c3fa-a5e8-4419-bfca-7c40162863cc
+2022-10-23 00:01:32,455 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-3572b365-bb09-4ab6-ab88-38f080a7844e
+2022-10-23 00:01:32,584 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-f15822b9-9b8b-4b69-b882-7aab7b2f389b
+2022-10-23 00:01:32,700 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-36727169-2f1f-437d-9dfd-b68f87b561d1
+2022-10-23 00:01:32,776 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-b31e7b73-dc6d-46d5-9d12-7cf87c817cee
+2022-10-23 00:01:32,845 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-9c0cf390-0602-4a36-ab34-f85839813911
+2022-10-23 00:01:32,937 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-11e7ff06-be0f-4788-9656-807652af8781
+2022-10-23 00:01:33,000 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-126151be-d541-455d-910d-3bf08843cf83
+2022-10-23 00:01:33,084 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-1b20ffd7-0b77-4d4f-afc8-0fc76f9305d2
+2022-10-23 00:01:33,175 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-6ef5807c-edd4-41c1-862b-faab05013b1a
+2022-10-23 00:01:33,235 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-75ef8e85-246f-4284-9126-9d39a91fee59
+2022-10-23 00:01:33,286 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-1845585d-52f2-42ff-82ba-958013885c0c
+2022-10-23 00:01:33,347 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-1fc99f4e-d64c-4fbb-9c25-e562b224a966
+2022-10-23 00:01:33,404 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-6625a977-3492-4441-bfc2-c5557a1a26c9
+2022-10-23 00:01:33,460 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-2555f452-8ebd-451f-965b-525df67dbcf9
+2022-10-23 00:01:33,513 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-814600b9-ebe1-48db-bade-eb6b08c87bbe
+2022-10-23 00:01:33,561 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-dac73365-6594-4c78-8257-ae39b9dca4af
+2022-10-23 00:01:33,583 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-10a4e680-8a44-40db-80b3-0549078ebd69
+2022-10-23 00:01:33,605 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-692908b8-4603-4f49-81b5-e05599a62890
+2022-10-23 00:01:33,626 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-4d001059-d46f-406e-88b5-ac06e9f031d8
+2022-10-23 00:01:33,649 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-6cfa30ee-e0ed-4c36-97cf-268bdc25188b
+2022-10-23 00:01:33,682 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-bebe3603-f1fc-4673-8681-6af8e1a5afae
+2022-10-23 00:01:33,712 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-daac3e18-220a-4f40-9d83-7712348877cb
+2022-10-23 00:01:33,743 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-2404e99e-6f85-4aeb-8b62-15a06b1f644c
+2022-10-23 00:01:33,773 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-303e9676-ed0c-4881-a6b4-db19353057a3
+2022-10-23 00:01:33,805 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-34090611-2eab-4598-ac15-2a7564db17ba
+2022-10-23 00:01:33,830 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-d6bbe254-a48a-4026-afdc-99b2f16b448d
+2022-10-23 00:01:33,875 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-6d3750a0-3cf8-4aec-b4ff-52133cb07efa
+2022-10-23 00:01:33,945 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-d32208b4-3a04-4534-97fa-5c7a429492f8
+2022-10-23 00:01:33,993 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-40968256-0213-4bab-b538-a2ab2fdcbe81
+2022-10-23 00:01:34,046 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-1ae8c13a-795a-4e5b-904f-7891f669dd99
+2022-10-23 00:01:34,106 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-c090059e-4488-41bb-8552-2dda49bbf0af
+2022-10-23 00:01:34,184 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-5bf137b2-04f1-4fc5-880e-47cc0c5d9c39
+2022-10-23 00:01:34,234 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-a5877362-6866-40da-a5a2-3723bf512e54
+2022-10-23 00:01:34,301 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-528a633e-ada8-4cc9-a03c-76efc5133092
+2022-10-23 00:01:34,362 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-f1f4a8c7-e70a-4a71-b0a8-035e4559814f
+2022-10-23 00:01:34,413 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-f5ea4099-3eee-4c9d-8295-36c18b93112d
+2022-10-23 00:01:34,499 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-a8b13c82-d0e6-44de-bd27-a837240e54dd
+2022-10-23 00:01:34,569 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-4819e1af-2960-4cfb-8adf-9e057ab6eac5
+2022-10-23 00:01:34,641 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-87dfe756-45e0-4ee5-adbd-51e8a2c8ceb4
+2022-10-23 00:01:34,711 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-7f41845f-e0b0-4963-b52f-662eee725970
+2022-10-23 00:01:34,772 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Collection-42179f8d-2c27-48be-90ba-2ee5f902b30c
+2022-10-23 00:01:34,885 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-fd404771-0c7f-4deb-b280-49480397f4d3
+2022-10-23 00:01:34,931 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-1d64b646-c263-4913-b928-7ca2fb2c9c3a
+2022-10-23 00:01:34,972 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-f276356e-8906-4212-b646-d2b77a409ff9
+2022-10-23 00:01:34,996 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-bd7f632d-dfa5-4a40-bb6d-50fa6c468098
+2022-10-23 00:01:35,024 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-df36ae9b-3be6-4e4c-b30e-fa2b384be4c7
+2022-10-23 00:01:35,065 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-8e4e9a49-58f6-420f-854f-75534acdc363
+2022-10-23 00:01:35,116 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-4451b642-f0da-4f83-b0a9-897378cd118b
+2022-10-23 00:01:35,170 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-e4150e9c-4cef-487c-8229-1b5b2147bc01
+2022-10-23 00:01:35,223 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-ccb638b5-af44-4b61-bd99-8a669c04384e
+2022-10-23 00:01:35,306 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-242502c4-e65d-4972-bd64-82983fdf21c3
+2022-10-23 00:01:35,383 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-1252f669-9a37-4b25-80cd-f8976ddb868c
+2022-10-23 00:01:35,420 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-3f79d1de-14a8-4040-bbeb-d9972ce18aeb
+2022-10-23 00:01:35,469 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-8cc1572b-3a8c-4ace-91e1-b1aa2c5307d3
+2022-10-23 00:01:35,511 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-f48a2194-dedf-4c36-8342-950389f875eb
+2022-10-23 00:01:35,524 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-14f3224f-9c34-4c1a-8f8a-5f8727494a34
+2022-10-23 00:01:35,572 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:Community-51860246-e356-41dd-bd16-eb02b5647f7a
+2022-10-23 00:01:38,037 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-200
+2022-10-23 00:01:38,089 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-201
+2022-10-23 00:01:38,153 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-202
+2022-10-23 00:01:38,192 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-204
+2022-10-23 00:01:38,251 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-207
+2022-10-23 00:01:38,298 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-208
+2022-10-23 00:01:38,336 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-209
+2022-10-23 00:01:38,565 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-218
+2022-10-23 00:01:38,612 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-228
+2022-10-23 00:01:38,656 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-234
+2022-10-23 00:01:38,697 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-235
+2022-10-23 00:01:38,739 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-237
+2022-10-23 00:01:38,774 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-239
+2022-10-23 00:01:38,814 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-257
+2022-10-23 00:01:38,869 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-261
+2022-10-23 00:01:38,899 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-263
+2022-10-23 00:01:38,944 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-264
+2022-10-23 00:01:38,985 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-265
+2022-10-23 00:01:39,022 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-268
+2022-10-23 00:01:39,058 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-276
+2022-10-23 00:01:39,090 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-277
+2022-10-23 00:01:39,117 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-278
+2022-10-23 00:01:39,147 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-282
+2022-10-23 00:01:39,169 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-283
+2022-10-23 00:01:39,192 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-284
+2022-10-23 00:01:39,221 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-288
+2022-10-23 00:01:39,247 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-290
+2022-10-23 00:01:39,272 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-292
+2022-10-23 00:01:39,301 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-293
+2022-10-23 00:01:39,323 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-294
+2022-10-23 00:01:39,354 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-295
+2022-10-23 00:01:39,396 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-296
+2022-10-23 00:01:39,473 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-297
+2022-10-23 00:01:39,520 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-298
+2022-10-23 00:01:39,540 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-304
+2022-10-23 00:01:39,571 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-305
+2022-10-23 00:01:39,592 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-306
+2022-10-23 00:01:39,631 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-307
+2022-10-23 00:01:39,660 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-308
+2022-10-23 00:01:39,689 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-309
+2022-10-23 00:01:39,744 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-310
+2022-10-23 00:01:39,773 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-311
+2022-10-23 00:01:39,804 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-312
+2022-10-23 00:01:39,824 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-316
+2022-10-23 00:01:39,848 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-317
+2022-10-23 00:01:39,887 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-318
+2022-10-23 00:01:39,934 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-319
+2022-10-23 00:01:39,985 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-320
+2022-10-23 00:01:40,016 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-321
+2022-10-23 00:01:40,059 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-322
+2022-10-23 00:01:40,119 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-325
+2022-10-23 00:01:40,139 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-326
+2022-10-23 00:01:40,191 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-328
+2022-10-23 00:01:40,212 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-329
+2022-10-23 00:01:40,240 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-330
+2022-10-23 00:01:40,275 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-331
+2022-10-23 00:01:40,291 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-332
+2022-10-23 00:01:40,311 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-333
+2022-10-23 00:01:40,332 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-334
+2022-10-23 00:01:40,374 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-335
+2022-10-23 00:01:40,416 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-336
+2022-10-23 00:01:40,450 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-343
+2022-10-23 00:01:40,474 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-344
+2022-10-23 00:01:40,496 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-345
+2022-10-23 00:01:40,517 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-346
+2022-10-23 00:01:40,535 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-348
+2022-10-23 00:01:40,573 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-349
+2022-10-23 00:01:40,593 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-350
+2022-10-23 00:01:40,620 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-351
+2022-10-23 00:01:40,637 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-352
+2022-10-23 00:01:40,662 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-354
+2022-10-23 00:01:40,685 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-378
+2022-10-23 00:01:40,721 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-379
+2022-10-23 00:01:40,745 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-380
+2022-10-23 00:01:40,778 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:WorkspaceItem-381
+2022-10-23 00:01:40,836 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-187
+2022-10-23 00:01:40,839 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-182
+2022-10-23 00:01:40,842 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-186
+2022-10-23 00:01:40,844 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-183
+2022-10-23 00:01:40,847 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-184
+2022-10-23 00:01:40,849 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-202
+2022-10-23 00:01:40,852 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-203
+2022-10-23 00:01:40,855 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-9
+2022-10-23 00:01:40,857 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-234
+2022-10-23 00:01:40,859 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-10
+2022-10-23 00:01:40,861 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-233
+2022-10-23 00:01:40,863 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-265
+2022-10-23 00:01:40,865 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-11
+2022-10-23 00:01:40,867 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-12
+2022-10-23 00:01:40,870 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-262
+2022-10-23 00:01:40,875 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-13
+2022-10-23 00:01:40,896 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-218
+2022-10-23 00:01:40,899 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-219
+2022-10-23 00:01:40,902 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-8
+2022-10-23 00:01:40,905 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-14
+2022-10-23 00:01:40,908 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-15
+2022-10-23 00:01:40,912 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-16
+2022-10-23 00:01:40,915 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-18
+2022-10-23 00:01:40,918 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-263
+2022-10-23 00:01:40,921 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-231
+2022-10-23 00:01:40,923 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-19
+2022-10-23 00:01:40,928 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-266
+2022-10-23 00:01:40,930 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-20
+2022-10-23 00:01:40,933 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-21
+2022-10-23 00:01:40,936 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-225
+2022-10-23 00:01:40,939 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-230
+2022-10-23 00:01:40,941 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-22
+2022-10-23 00:01:40,948 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-246
+2022-10-23 00:01:40,950 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-23
+2022-10-23 00:01:40,953 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-129
+2022-10-23 00:01:40,955 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-17
+2022-10-23 00:01:40,958 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-34
+2022-10-23 00:01:40,960 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-417
+2022-10-23 00:01:40,963 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-284
+2022-10-23 00:01:40,967 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-229
+2022-10-23 00:01:40,969 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-279
+2022-10-23 00:01:40,972 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-283
+2022-10-23 00:01:40,975 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-288
+2022-10-23 00:01:40,977 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-287
+2022-10-23 00:01:40,980 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-285
+2022-10-23 00:01:40,983 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-35
+2022-10-23 00:01:40,986 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-228
+2022-10-23 00:01:40,988 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-36
+2022-10-23 00:01:40,991 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-37
+2022-10-23 00:01:40,994 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-38
+2022-10-23 00:01:40,996 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-280
+2022-10-23 00:01:40,999 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-39
+2022-10-23 00:01:41,002 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-286
+2022-10-23 00:01:41,004 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-130
+2022-10-23 00:01:41,006 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-33
+2022-10-23 00:01:41,009 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-412
+2022-10-23 00:01:41,011 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-278
+2022-10-23 00:01:41,014 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-41
+2022-10-23 00:01:41,017 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-275
+2022-10-23 00:01:41,019 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-413
+2022-10-23 00:01:41,022 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-274
+2022-10-23 00:01:41,024 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-42
+2022-10-23 00:01:41,025 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-43
+2022-10-23 00:01:41,027 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-290
+2022-10-23 00:01:41,029 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-276
+2022-10-23 00:01:41,031 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-273
+2022-10-23 00:01:41,033 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-227
+2022-10-23 00:01:41,035 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-281
+2022-10-23 00:01:41,037 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-282
+2022-10-23 00:01:41,039 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-40
+2022-10-23 00:01:41,041 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-25
+2022-10-23 00:01:41,054 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-289
+2022-10-23 00:01:41,057 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-411
+2022-10-23 00:01:41,060 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-309
+2022-10-23 00:01:41,063 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-26
+2022-10-23 00:01:41,065 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-27
+2022-10-23 00:01:41,067 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-30
+2022-10-23 00:01:41,069 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-28
+2022-10-23 00:01:41,071 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-31
+2022-10-23 00:01:41,074 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-410
+2022-10-23 00:01:41,079 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-29
+2022-10-23 00:01:41,084 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-131
+2022-10-23 00:01:41,087 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-32
+2022-10-23 00:01:41,108 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-24
+2022-10-23 00:01:41,111 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-45
+2022-10-23 00:01:41,114 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-132
+2022-10-23 00:01:41,117 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-44
+2022-10-23 00:01:41,120 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-297
+2022-10-23 00:01:41,123 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-5
+2022-10-23 00:01:41,126 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-223
+2022-10-23 00:01:41,129 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-264
+2022-10-23 00:01:41,132 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-224
+2022-10-23 00:01:41,135 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-221
+2022-10-23 00:01:41,137 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-46
+2022-10-23 00:01:41,140 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-236
+2022-10-23 00:01:41,142 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-237
+2022-10-23 00:01:41,145 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-51
+2022-10-23 00:01:41,147 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-53
+2022-10-23 00:01:41,150 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-54
+2022-10-23 00:01:41,152 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-48
+2022-10-23 00:01:41,154 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-272
+2022-10-23 00:01:41,157 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-49
+2022-10-23 00:01:41,159 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-50
+2022-10-23 00:01:41,163 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-55
+2022-10-23 00:01:41,167 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-58
+2022-10-23 00:01:41,170 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-52
+2022-10-23 00:01:41,173 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-269
+2022-10-23 00:01:41,175 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-57
+2022-10-23 00:01:41,178 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-56
+2022-10-23 00:01:41,183 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-268
+2022-10-23 00:01:41,186 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-240
+2022-10-23 00:01:41,189 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-270
+2022-10-23 00:01:41,191 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-235
+2022-10-23 00:01:41,193 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-59
+2022-10-23 00:01:41,195 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-47
+2022-10-23 00:01:41,197 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-133
+2022-10-23 00:01:41,199 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-6
+2022-10-23 00:01:41,201 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-61
+2022-10-23 00:01:41,207 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-60
+2022-10-23 00:01:41,219 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-267
+2022-10-23 00:01:41,227 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-63
+2022-10-23 00:01:41,229 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-62
+2022-10-23 00:01:41,232 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-65
+2022-10-23 00:01:41,235 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-66
+2022-10-23 00:01:41,237 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-241
+2022-10-23 00:01:41,240 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-67
+2022-10-23 00:01:41,243 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-68
+2022-10-23 00:01:41,245 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-69
+2022-10-23 00:01:41,248 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-70
+2022-10-23 00:01:41,250 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-64
+2022-10-23 00:01:41,252 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-72
+2022-10-23 00:01:41,254 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-217
+2022-10-23 00:01:41,255 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-71
+2022-10-23 00:01:41,257 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-238
+2022-10-23 00:01:41,260 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-239
+2022-10-23 00:01:41,261 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-73
+2022-10-23 00:01:41,263 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-74
+2022-10-23 00:01:41,265 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-75
+2022-10-23 00:01:41,267 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-76
+2022-10-23 00:01:41,270 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-77
+2022-10-23 00:01:41,273 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-78
+2022-10-23 00:01:41,275 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-79
+2022-10-23 00:01:41,277 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-80
+2022-10-23 00:01:41,280 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-81
+2022-10-23 00:01:41,282 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-82
+2022-10-23 00:01:41,285 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-83
+2022-10-23 00:01:41,287 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-84
+2022-10-23 00:01:41,290 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-85
+2022-10-23 00:01:41,293 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-86
+2022-10-23 00:01:41,295 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-87
+2022-10-23 00:01:41,299 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-88
+2022-10-23 00:01:41,302 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-89
+2022-10-23 00:01:41,305 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-90
+2022-10-23 00:01:41,309 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-91
+2022-10-23 00:01:41,311 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-92
+2022-10-23 00:01:41,313 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-93
+2022-10-23 00:01:41,316 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-94
+2022-10-23 00:01:41,318 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-95
+2022-10-23 00:01:41,320 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-96
+2022-10-23 00:01:41,322 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-97
+2022-10-23 00:01:41,324 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-98
+2022-10-23 00:01:41,325 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-99
+2022-10-23 00:01:41,327 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-100
+2022-10-23 00:01:41,329 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-101
+2022-10-23 00:01:41,331 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-102
+2022-10-23 00:01:41,333 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-103
+2022-10-23 00:01:41,335 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-104
+2022-10-23 00:01:41,337 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-105
+2022-10-23 00:01:41,339 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-107
+2022-10-23 00:01:41,341 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-106
+2022-10-23 00:01:41,342 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-108
+2022-10-23 00:01:41,345 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-109
+2022-10-23 00:01:41,347 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-110
+2022-10-23 00:01:41,349 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-111
+2022-10-23 00:01:41,351 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-112
+2022-10-23 00:01:41,354 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-113
+2022-10-23 00:01:41,356 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-114
+2022-10-23 00:01:41,358 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-115
+2022-10-23 00:01:41,360 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-116
+2022-10-23 00:01:41,363 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-117
+2022-10-23 00:01:41,365 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-118
+2022-10-23 00:01:41,367 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-119
+2022-10-23 00:01:41,370 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-120
+2022-10-23 00:01:41,371 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-121
+2022-10-23 00:01:41,373 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-122
+2022-10-23 00:01:41,376 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-123
+2022-10-23 00:01:41,378 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-124
+2022-10-23 00:01:41,382 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-125
+2022-10-23 00:01:41,384 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-126
+2022-10-23 00:01:41,386 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-127
+2022-10-23 00:01:41,388 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-128
+2022-10-23 00:01:41,391 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-206
+2022-10-23 00:01:41,393 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-205
+2022-10-23 00:01:41,396 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-7
+2022-10-23 00:01:41,399 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-207
+2022-10-23 00:01:41,401 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-291
+2022-10-23 00:01:41,404 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-299
+2022-10-23 00:01:41,405 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-298
+2022-10-23 00:01:41,408 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-307
+2022-10-23 00:01:41,410 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-301
+2022-10-23 00:01:41,412 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-308
+2022-10-23 00:01:41,415 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-306
+2022-10-23 00:01:41,417 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-204
+2022-10-23 00:01:41,419 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-1
+2022-10-23 00:01:41,421 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-4
+2022-10-23 00:01:41,423 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-2
+2022-10-23 00:01:41,425 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-303
+2022-10-23 00:01:41,438 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-300
+2022-10-23 00:01:41,442 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-304
+2022-10-23 00:01:41,444 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-305
+2022-10-23 00:01:41,450 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-302
+2022-10-23 00:01:41,464 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-3
+2022-10-23 00:01:41,469 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-415
+2022-10-23 00:01:41,474 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-384
+2022-10-23 00:01:41,476 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-386
+2022-10-23 00:01:41,478 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-388
+2022-10-23 00:01:41,479 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-416
+2022-10-23 00:01:41,481 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-385
+2022-10-23 00:01:41,486 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-387
+2022-10-23 00:01:41,487 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-383
+2022-10-23 00:01:41,489 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-414
+2022-10-23 00:01:41,491 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-311
+2022-10-23 00:01:41,493 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-312
+2022-10-23 00:01:41,494 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-321
+2022-10-23 00:01:41,496 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-313
+2022-10-23 00:01:41,498 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-314
+2022-10-23 00:01:41,499 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-315
+2022-10-23 00:01:41,501 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-316
+2022-10-23 00:01:41,503 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-317
+2022-10-23 00:01:41,505 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-318
+2022-10-23 00:01:41,507 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-319
+2022-10-23 00:01:41,509 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-320
+2022-10-23 00:01:41,510 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-324
+2022-10-23 00:01:41,512 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-325
+2022-10-23 00:01:41,514 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-326
+2022-10-23 00:01:41,517 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-327
+2022-10-23 00:01:41,518 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-328
+2022-10-23 00:01:41,520 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-329
+2022-10-23 00:01:41,522 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-330
+2022-10-23 00:01:41,524 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-332
+2022-10-23 00:01:41,526 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-331
+2022-10-23 00:01:41,528 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-333
+2022-10-23 00:01:41,530 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-334
+2022-10-23 00:01:41,532 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-335
+2022-10-23 00:01:41,534 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-337
+2022-10-23 00:01:41,536 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-322
+2022-10-23 00:01:41,538 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-336
+2022-10-23 00:01:41,541 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-338
+2022-10-23 00:01:41,543 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-323
+2022-10-23 00:01:41,546 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-339
+2022-10-23 00:01:41,548 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-340
+2022-10-23 00:01:41,550 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-310
+2022-10-23 00:01:41,552 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-341
+2022-10-23 00:01:41,554 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-342
+2022-10-23 00:01:41,557 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-211
+2022-10-23 00:01:41,559 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-209
+2022-10-23 00:01:41,562 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-214
+2022-10-23 00:01:41,573 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-213
+2022-10-23 00:01:41,575 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-208
+2022-10-23 00:01:41,578 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-215
+2022-10-23 00:01:41,580 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-210
+2022-10-23 00:01:41,583 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-212
+2022-10-23 00:01:41,585 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-190
+2022-10-23 00:01:41,587 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-192
+2022-10-23 00:01:41,589 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-191
+2022-10-23 00:01:41,592 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-201
+2022-10-23 00:01:41,595 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-200
+2022-10-23 00:01:41,597 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-199
+2022-10-23 00:01:41,600 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-198
+2022-10-23 00:01:41,602 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-196
+2022-10-23 00:01:41,605 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-197
+2022-10-23 00:01:41,607 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-194
+2022-10-23 00:01:41,609 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-195
+2022-10-23 00:01:41,611 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-189
+2022-10-23 00:01:41,613 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-193
+2022-10-23 00:01:41,615 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-177
+2022-10-23 00:01:41,618 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-176
+2022-10-23 00:01:41,620 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-175
+2022-10-23 00:01:41,622 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-179
+2022-10-23 00:01:41,624 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-180
+2022-10-23 00:01:41,626 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-181
+2022-10-23 00:01:41,628 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-178
+2022-10-23 00:01:41,630 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-402
+2022-10-23 00:01:41,638 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-174
+2022-10-23 00:01:41,640 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-403
+2022-10-23 00:01:41,643 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-248
+2022-10-23 00:01:41,644 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-249
+2022-10-23 00:01:41,646 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-250
+2022-10-23 00:01:41,648 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-251
+2022-10-23 00:01:41,650 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-252
+2022-10-23 00:01:41,652 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-253
+2022-10-23 00:01:41,654 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-254
+2022-10-23 00:01:41,656 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-255
+2022-10-23 00:01:41,659 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-256
+2022-10-23 00:01:41,662 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-257
+2022-10-23 00:01:41,664 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-258
+2022-10-23 00:01:41,667 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-260
+2022-10-23 00:01:41,669 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-261
+2022-10-23 00:01:41,671 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-343
+2022-10-23 00:01:41,673 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-344
+2022-10-23 00:01:41,677 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-345
+2022-10-23 00:01:41,681 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-346
+2022-10-23 00:01:41,683 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-347
+2022-10-23 00:01:41,686 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-348
+2022-10-23 00:01:41,688 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-349
+2022-10-23 00:01:41,690 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-350
+2022-10-23 00:01:41,692 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-351
+2022-10-23 00:01:41,695 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-352
+2022-10-23 00:01:41,697 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-355
+2022-10-23 00:01:41,700 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-356
+2022-10-23 00:01:41,702 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-357
+2022-10-23 00:01:41,704 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-358
+2022-10-23 00:01:41,706 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-359
+2022-10-23 00:01:41,709 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-360
+2022-10-23 00:01:41,712 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-361
+2022-10-23 00:01:41,714 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-362
+2022-10-23 00:01:41,720 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-363
+2022-10-23 00:01:41,729 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-354
+2022-10-23 00:01:41,732 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-364
+2022-10-23 00:01:41,737 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-365
+2022-10-23 00:01:41,740 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-366
+2022-10-23 00:01:41,742 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-367
+2022-10-23 00:01:41,743 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-368
+2022-10-23 00:01:41,745 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-369
+2022-10-23 00:01:41,747 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-370
+2022-10-23 00:01:41,748 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-371
+2022-10-23 00:01:41,750 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-372
+2022-10-23 00:01:41,753 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-373
+2022-10-23 00:01:41,755 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-374
+2022-10-23 00:01:41,757 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-375
+2022-10-23 00:01:41,759 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-376
+2022-10-23 00:01:41,761 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-377
+2022-10-23 00:01:41,763 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-378
+2022-10-23 00:01:41,765 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-379
+2022-10-23 00:01:41,766 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-380
+2022-10-23 00:01:41,768 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-381
+2022-10-23 00:01:41,769 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-382
+2022-10-23 00:01:41,771 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-173
+2022-10-23 00:01:41,773 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-172
+2022-10-23 00:01:41,783 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-185
+2022-10-23 00:01:41,787 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-188
+2022-10-23 00:01:41,791 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-294
+2022-10-23 00:01:41,794 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-245
+2022-10-23 00:01:41,797 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-292
+2022-10-23 00:01:41,799 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-134
+2022-10-23 00:01:41,802 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-408
+2022-10-23 00:01:41,805 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-404
+2022-10-23 00:01:41,807 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-153
+2022-10-23 00:01:41,810 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-419
+2022-10-23 00:01:41,813 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-418
+2022-10-23 00:01:41,814 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-155
+2022-10-23 00:01:41,817 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-148
+2022-10-23 00:01:41,819 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-151
+2022-10-23 00:01:41,821 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-150
+2022-10-23 00:01:41,823 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-147
+2022-10-23 00:01:41,826 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-149
+2022-10-23 00:01:41,829 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-407
+2022-10-23 00:01:41,831 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-142
+2022-10-23 00:01:41,865 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-144
+2022-10-23 00:01:41,868 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-293
+2022-10-23 00:01:41,871 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-138
+2022-10-23 00:01:41,874 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-423
+2022-10-23 00:01:41,877 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-406
+2022-10-23 00:01:41,879 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-405
+2022-10-23 00:01:41,881 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-295
+2022-10-23 00:01:41,883 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-143
+2022-10-23 00:01:41,884 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-141
+2022-10-23 00:01:41,886 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-156
+2022-10-23 00:01:41,888 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-145
+2022-10-23 00:01:41,890 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-140
+2022-10-23 00:01:41,892 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-136
+2022-10-23 00:01:41,893 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-247
+2022-10-23 00:01:41,896 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-409
+2022-10-23 00:01:41,898 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-135
+2022-10-23 00:01:41,900 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-154
+2022-10-23 00:01:41,903 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-421
+2022-10-23 00:01:41,907 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-420
+2022-10-23 00:01:41,910 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-152
+2022-10-23 00:01:41,913 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-296
+2022-10-23 00:01:41,916 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-139
+2022-10-23 00:01:41,918 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-137
+2022-10-23 00:01:41,920 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-389
+2022-10-23 00:01:41,922 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-390
+2022-10-23 00:01:41,950 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-391
+2022-10-23 00:01:41,953 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-392
+2022-10-23 00:01:41,955 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-393
+2022-10-23 00:01:41,958 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-394
+2022-10-23 00:01:41,960 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-395
+2022-10-23 00:01:41,961 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-396
+2022-10-23 00:01:41,963 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-397
+2022-10-23 00:01:41,965 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-398
+2022-10-23 00:01:41,967 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-399
+2022-10-23 00:01:41,969 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-400
+2022-10-23 00:01:41,971 INFO  unknown unknown org.dspace.discovery.SolrServiceImpl @ anonymous::indexed_object:MetadataField-216
+2022-10-23 00:01:42,072 INFO  unknown unknown org.dspace.scripts.handler.impl.CommandLineDSpaceRunnableHandler @ Done with indexing
+2022-10-23 00:01:42,076 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataSchema' removed from Eh107InternalCacheManager.
+2022-10-23 00:01:42,077 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-query-results-region' removed from Eh107InternalCacheManager.
+2022-10-23 00:01:42,077 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataField' removed from Eh107InternalCacheManager.
+2022-10-23 00:01:42,078 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Community' removed from Eh107InternalCacheManager.
+2022-10-23 00:01:42,078 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-update-timestamps-region' removed from Eh107InternalCacheManager.
+2022-10-23 00:01:42,079 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Collection' removed from Eh107InternalCacheManager.
+2022-10-23 00:01:42,079 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Site' removed from Eh107InternalCacheManager.
+2022-10-23 00:01:42,079 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.EPerson' removed from Eh107InternalCacheManager.
+2022-10-23 00:01:42,080 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.Group' removed from Eh107InternalCacheManager.
+2022-10-23 00:01:42,261 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'sherpa.searchByJournalISSN' removed from Eh107InternalCacheManager.
+2022-10-23 00:01:42,266 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'manifests' removed from Eh107InternalCacheManager.
+2022-10-23 00:01:42,276 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'canvasdimensions' removed from Eh107InternalCacheManager.
+2022-10-23 00:45:04,848 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 00:45:05,688 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 00:45:05,752 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 00:45:05,758 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 00:45:05,774 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 00:45:05,796 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public java.lang.Object org.apache.commons.configuration2.builder.FileBasedBuilderParametersImpl.setURL(java.net.URL,org.apache.commons.configuration2.io.URLConnectionOptions)! Ignoring this property.
+2022-10-23 00:45:05,797 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public org.apache.commons.configuration2.builder.FileBasedBuilderParametersImpl org.apache.commons.configuration2.builder.FileBasedBuilderParametersImpl.setURL(java.net.URL,org.apache.commons.configuration2.io.URLConnectionOptions)! Ignoring this property.
+2022-10-23 00:45:05,828 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 00:45:11,871 INFO  unknown unknown org.ehcache.xml.XmlConfiguration @ Loading Ehcache XML configuration from /dspace/config/ehcache.xml.
+2022-10-23 00:45:13,531 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 4MB in chunks
+2022-10-23 00:45:13,626 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'sherpa.searchByJournalISSN' created in Eh107InternalCacheManager.
+2022-10-23 00:45:13,644 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 10.0MB in chunks
+2022-10-23 00:45:13,654 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'manifests' created in Eh107InternalCacheManager.
+2022-10-23 00:45:13,670 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 4MB in chunks
+2022-10-23 00:45:13,697 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'canvasdimensions' created in Eh107InternalCacheManager.
+2022-10-23 00:45:13,824 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=sherpa.searchByJournalISSN
+2022-10-23 00:45:13,826 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=manifests
+2022-10-23 00:45:13,826 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=canvasdimensions
+2022-10-23 00:45:13,845 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=sherpa.searchByJournalISSN
+2022-10-23 00:45:13,846 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=manifests
+2022-10-23 00:45:13,846 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=canvasdimensions
+2022-10-23 00:45:14,393 INFO  unknown unknown org.eclipse.jetty.util.log @ Logging initialized @12618ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-23 00:45:14,979 INFO  unknown unknown org.dspace.importer.external.service.ImportService @ Loading 6 import sources.
+2022-10-23 00:45:18,177 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation should only be used on methods with parameters: public java.lang.String org.dspace.storage.bitstore.S3BitStoreService.getBucketName()
+2022-10-23 00:45:19,685 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation is not supported on static methods: public static void org.dspace.rdf.storage.DOIURIGenerator.setFallback(org.dspace.rdf.storage.URIGenerator)
+2022-10-23 00:45:19,731 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation is not supported on static methods: public static void org.dspace.rdf.storage.DOIHandleURIGenerator.setFallback(org.dspace.rdf.storage.URIGenerator)
+2022-10-23 00:45:20,185 WARN  unknown unknown org.dspace.servicemanager.DSpaceServiceManager @ Unable to locate bean by name or id=index-authority. Will try to look up bean by type next.
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'index-authority' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:872) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1344) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1160) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.dspace.servicemanager.DSpaceServiceManager.getServiceByName(DSpaceServiceManager.java:426) [dspace-services-7.4.jar:7.4]
+	at org.dspace.scripts.ScriptServiceImpl.getScriptConfiguration(ScriptServiceImpl.java:33) [dspace-api-7.4.jar:7.4]
+	at org.dspace.app.launcher.ScriptLauncher.handleScript(ScriptLauncher.java:125) [dspace-api-7.4.jar:7.4]
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:98) [dspace-api-7.4.jar:7.4]
+2022-10-23 00:45:21,122 INFO  unknown unknown org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: classpath:org/dspace/storage/rdbms/sqlmigration/postgres, classpath:org/dspace/storage/rdbms/migration, classpath:org/dspace/storage/rdbms/xmlworkflow
+2022-10-23 00:45:21,378 INFO  unknown unknown org.flywaydb.core.internal.license.VersionPrinter @ Flyway Community Edition 8.4.4 by Redgate
+2022-10-23 00:45:21,379 INFO  unknown unknown org.flywaydb.core.internal.database.base.BaseDatabaseType @ Database: jdbc:postgresql://52.209.192.143:5432/dspace74 (PostgreSQL 12.10)
+2022-10-23 00:45:21,807 INFO  unknown unknown org.flywaydb.core.internal.license.VersionPrinter @ Flyway Community Edition 8.4.4 by Redgate
+2022-10-23 00:45:22,019 INFO  unknown unknown org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2022-10-23 00:45:22,054 INFO  unknown unknown org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2022-10-23 00:45:22,311 INFO  unknown unknown org.hibernate.Version @ HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-10-23 00:45:23,383 INFO  unknown unknown org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-23 00:45:24,013 INFO  unknown unknown org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-10-23 00:45:24,622 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.content.Collection]. Please see the Hibernate documentation for proper usage.
+2022-10-23 00:45:24,630 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.content.Community]. Please see the Hibernate documentation for proper usage.
+2022-10-23 00:45:24,682 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.content.Site]. Please see the Hibernate documentation for proper usage.
+2022-10-23 00:45:24,692 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.eperson.EPerson]. Please see the Hibernate documentation for proper usage.
+2022-10-23 00:45:24,703 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.eperson.Group]. Please see the Hibernate documentation for proper usage.
+2022-10-23 00:45:25,113 INFO  unknown unknown org.ehcache.xml.XmlConfiguration @ Loading Ehcache XML configuration from /dspace/config/hibernate-ehcache-config.xml.
+2022-10-23 00:45:25,475 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataSchema' created in Eh107InternalCacheManager.
+2022-10-23 00:45:25,481 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-query-results-region' created in Eh107InternalCacheManager.
+2022-10-23 00:45:25,497 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataField' created in Eh107InternalCacheManager.
+2022-10-23 00:45:25,499 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Site' created in Eh107InternalCacheManager.
+2022-10-23 00:45:25,501 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.EPerson' created in Eh107InternalCacheManager.
+2022-10-23 00:45:25,506 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Community' created in Eh107InternalCacheManager.
+2022-10-23 00:45:25,507 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-update-timestamps-region' created in Eh107InternalCacheManager.
+2022-10-23 00:45:25,509 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Collection' created in Eh107InternalCacheManager.
+2022-10-23 00:45:25,511 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.Group' created in Eh107InternalCacheManager.
+2022-10-23 00:45:25,528 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.MetadataSchema
+2022-10-23 00:45:25,528 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.Community
+2022-10-23 00:45:25,528 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=default-query-results-region
+2022-10-23 00:45:25,529 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.MetadataField
+2022-10-23 00:45:25,529 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=default-update-timestamps-region
+2022-10-23 00:45:25,529 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.Collection
+2022-10-23 00:45:25,529 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.Site
+2022-10-23 00:45:25,529 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.eperson.EPerson
+2022-10-23 00:45:25,529 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.eperson.Group
+2022-10-23 00:45:25,605 INFO  unknown unknown org.hibernate.validator.internal.util.Version @ HV000001: Hibernate Validator 6.0.23.Final
+2022-10-23 00:45:29,614 INFO  unknown unknown org.dspace.authority.indexer.AuthorityIndexClient @ Retrieving all data
+2022-10-23 00:45:29,616 INFO  unknown unknown org.dspace.authority.indexer.AuthorityIndexClient @ Initialize org.dspace.authority.indexer.DSpaceAuthorityIndexer
+2022-10-23 00:45:31,986 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalIssueOfPublication, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:32,101 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:32,112 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journalvolume, metadataelement: identifier, metadataqualifier: name
+2022-10-23 00:45:32,439 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:32,447 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:32,527 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalIssueOfPublication, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:32,607 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:32,616 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journalvolume, metadataelement: identifier, metadataqualifier: name
+2022-10-23 00:45:32,660 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:32,664 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:32,708 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfAdvisors, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:32,781 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:32,785 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:32,827 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:32,832 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:32,921 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:32,925 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:33,068 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalIssueOfPublication, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:33,125 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:33,133 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journalvolume, metadataelement: identifier, metadataqualifier: name
+2022-10-23 00:45:33,199 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:33,205 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:33,628 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:33,635 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:33,691 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalIssueOfPublication, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:33,741 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:33,749 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journalvolume, metadataelement: identifier, metadataqualifier: name
+2022-10-23 00:45:33,864 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalIssueOfPublication, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:33,913 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:33,922 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journalvolume, metadataelement: identifier, metadataqualifier: name
+2022-10-23 00:45:34,200 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:34,204 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isIssueOfJournalVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:34,210 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:34,302 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:34,306 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:34,422 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfAdvisors, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:34,598 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:34,602 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:34,617 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfAdvisors, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:34,691 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:34,696 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:34,781 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:34,784 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:34,987 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalIssueOfPublication, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,034 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:35,043 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journalvolume, metadataelement: identifier, metadataqualifier: name
+2022-10-23 00:45:35,120 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,124 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:35,131 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,136 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:35,282 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfAdvisors, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,325 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,330 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:35,391 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,396 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:35,406 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,411 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:35,490 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,497 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:35,624 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,625 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,626 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,628 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,630 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,631 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,633 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,634 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,636 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,637 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,638 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,640 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,642 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,643 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,644 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,645 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,647 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,648 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,649 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,650 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,652 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,653 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,673 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,674 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,676 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,677 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,680 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,683 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,684 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,685 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,687 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,688 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,689 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,697 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,698 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,700 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,701 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,702 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,704 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,705 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,712 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,713 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,714 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,716 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isVolumeOfJournal, metadataqualifier: null
+2022-10-23 00:45:35,843 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,847 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:35,910 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,914 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:35,919 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:35,922 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:35,963 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfAdvisors, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,142 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalIssueOfPublication, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,175 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:36,180 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journalvolume, metadataelement: identifier, metadataqualifier: name
+2022-10-23 00:45:36,209 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalIssueOfPublication, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,243 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:36,248 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journalvolume, metadataelement: identifier, metadataqualifier: name
+2022-10-23 00:45:36,270 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,274 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:36,381 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfAdvisors, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,439 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,444 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:36,547 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalOfVolume, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,549 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:36,623 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfAdvisor, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,626 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfAdvisors, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,633 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfAdvisor, metadataqualifier: null
+2022-10-23 00:45:36,664 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isAdvisorOfPublicationMap, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,673 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isAdvisorOfPublicationMap, metadataqualifier: null
+2022-10-23 00:45:36,829 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalIssueOfPublication, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,852 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:36,856 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journalvolume, metadataelement: identifier, metadataqualifier: name
+2022-10-23 00:45:36,869 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isJournalVolumeOfIssue, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,871 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfJournalIssue, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,872 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfJournalIssue, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,873 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfJournalIssue, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,873 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfJournalIssue, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,873 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfJournalIssue, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,874 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfJournalIssue, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,874 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfJournalIssue, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,875 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfJournalIssue, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,875 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: relation, metadataelement: isPublicationOfJournalIssue, metadataqualifier: latestForDiscovery
+2022-10-23 00:45:36,882 ERROR unknown unknown org.dspace.content.RelationshipMetadataServiceImpl @ A MetadataValue was attempted to construct with MetadataField for parameters: metadataschema: journal, metadataelement: title, metadataqualifier: null
+2022-10-23 00:45:36,885 INFO  unknown unknown org.dspace.authority.indexer.AuthorityIndexClient @ Cleaning the old index
+2022-10-23 00:45:36,894 INFO  unknown unknown org.dspace.authority.indexer.AuthorityIndexClient @ Writing new data
+2022-10-23 00:45:39,391 INFO  unknown unknown org.dspace.authority.indexer.AuthorityIndexClient @ All done !
+2022-10-23 00:45:39,394 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataSchema' removed from Eh107InternalCacheManager.
+2022-10-23 00:45:39,394 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-query-results-region' removed from Eh107InternalCacheManager.
+2022-10-23 00:45:39,395 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataField' removed from Eh107InternalCacheManager.
+2022-10-23 00:45:39,396 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Community' removed from Eh107InternalCacheManager.
+2022-10-23 00:45:39,396 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-update-timestamps-region' removed from Eh107InternalCacheManager.
+2022-10-23 00:45:39,396 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Collection' removed from Eh107InternalCacheManager.
+2022-10-23 00:45:39,397 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Site' removed from Eh107InternalCacheManager.
+2022-10-23 00:45:39,397 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.EPerson' removed from Eh107InternalCacheManager.
+2022-10-23 00:45:39,397 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.Group' removed from Eh107InternalCacheManager.
+2022-10-23 00:45:39,452 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'sherpa.searchByJournalISSN' removed from Eh107InternalCacheManager.
+2022-10-23 00:45:39,453 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'manifests' removed from Eh107InternalCacheManager.
+2022-10-23 00:45:39,454 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'canvasdimensions' removed from Eh107InternalCacheManager.
+2022-10-23 01:00:06,983 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 01:00:07,090 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 01:00:08,609 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 01:00:08,632 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 01:00:08,653 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 01:00:08,665 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 01:00:08,697 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 01:00:08,698 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 01:00:08,715 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 01:00:08,724 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public java.lang.Object org.apache.commons.configuration2.builder.FileBasedBuilderParametersImpl.setURL(java.net.URL,org.apache.commons.configuration2.io.URLConnectionOptions)! Ignoring this property.
+2022-10-23 01:00:08,725 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public org.apache.commons.configuration2.builder.FileBasedBuilderParametersImpl org.apache.commons.configuration2.builder.FileBasedBuilderParametersImpl.setURL(java.net.URL,org.apache.commons.configuration2.io.URLConnectionOptions)! Ignoring this property.
+2022-10-23 01:00:08,727 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 01:00:08,764 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public java.lang.Object org.apache.commons.configuration2.builder.FileBasedBuilderParametersImpl.setURL(java.net.URL,org.apache.commons.configuration2.io.URLConnectionOptions)! Ignoring this property.
+2022-10-23 01:00:08,765 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public org.apache.commons.configuration2.builder.FileBasedBuilderParametersImpl org.apache.commons.configuration2.builder.FileBasedBuilderParametersImpl.setURL(java.net.URL,org.apache.commons.configuration2.io.URLConnectionOptions)! Ignoring this property.
+2022-10-23 01:00:08,778 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 01:00:08,798 INFO  unknown unknown org.apache.commons.beanutils.FluentPropertyBeanIntrospector @ Error when creating PropertyDescriptor for public final void org.apache.commons.configuration2.AbstractConfiguration.setProperty(java.lang.String,java.lang.Object)! Ignoring this property.
+2022-10-23 01:00:20,446 INFO  unknown unknown org.ehcache.xml.XmlConfiguration @ Loading Ehcache XML configuration from /dspace/config/ehcache.xml.
+2022-10-23 01:00:20,771 INFO  unknown unknown org.ehcache.xml.XmlConfiguration @ Loading Ehcache XML configuration from /dspace/config/ehcache.xml.
+2022-10-23 01:00:24,029 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 4MB in chunks
+2022-10-23 01:00:24,048 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 4MB in chunks
+2022-10-23 01:00:24,098 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'sherpa.searchByJournalISSN' created in Eh107InternalCacheManager.
+2022-10-23 01:00:24,123 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'sherpa.searchByJournalISSN' created in Eh107InternalCacheManager.
+2022-10-23 01:00:24,153 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 10.0MB in chunks
+2022-10-23 01:00:24,175 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 10.0MB in chunks
+2022-10-23 01:00:24,183 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'manifests' created in Eh107InternalCacheManager.
+2022-10-23 01:00:24,184 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'manifests' created in Eh107InternalCacheManager.
+2022-10-23 01:00:24,201 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 4MB in chunks
+2022-10-23 01:00:24,213 INFO  unknown unknown org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource @ Allocating 4MB in chunks
+2022-10-23 01:00:24,219 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'canvasdimensions' created in Eh107InternalCacheManager.
+2022-10-23 01:00:24,243 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'canvasdimensions' created in Eh107InternalCacheManager.
+2022-10-23 01:00:24,416 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=sherpa.searchByJournalISSN
+2022-10-23 01:00:24,418 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=manifests
+2022-10-23 01:00:24,418 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=canvasdimensions
+2022-10-23 01:00:24,439 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=sherpa.searchByJournalISSN
+2022-10-23 01:00:24,446 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=sherpa.searchByJournalISSN
+2022-10-23 01:00:24,450 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=manifests
+2022-10-23 01:00:24,451 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=canvasdimensions
+2022-10-23 01:00:24,464 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=sherpa.searchByJournalISSN
+2022-10-23 01:00:24,466 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=manifests
+2022-10-23 01:00:24,466 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=canvasdimensions
+2022-10-23 01:00:24,447 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=manifests
+2022-10-23 01:00:24,468 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/ehcache.xml,Cache=canvasdimensions
+2022-10-23 01:00:25,303 INFO  unknown unknown org.eclipse.jetty.util.log @ Logging initialized @23769ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-23 01:00:25,555 INFO  unknown unknown org.eclipse.jetty.util.log @ Logging initialized @24033ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-10-23 01:00:26,769 INFO  unknown unknown org.dspace.importer.external.service.ImportService @ Loading 6 import sources.
+2022-10-23 01:00:27,033 INFO  unknown unknown org.dspace.importer.external.service.ImportService @ Loading 6 import sources.
+2022-10-23 01:00:34,060 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation should only be used on methods with parameters: public java.lang.String org.dspace.storage.bitstore.S3BitStoreService.getBucketName()
+2022-10-23 01:00:34,910 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation should only be used on methods with parameters: public java.lang.String org.dspace.storage.bitstore.S3BitStoreService.getBucketName()
+2022-10-23 01:00:37,653 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation is not supported on static methods: public static void org.dspace.rdf.storage.DOIURIGenerator.setFallback(org.dspace.rdf.storage.URIGenerator)
+2022-10-23 01:00:37,703 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation is not supported on static methods: public static void org.dspace.rdf.storage.DOIHandleURIGenerator.setFallback(org.dspace.rdf.storage.URIGenerator)
+2022-10-23 01:00:38,735 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation is not supported on static methods: public static void org.dspace.rdf.storage.DOIURIGenerator.setFallback(org.dspace.rdf.storage.URIGenerator)
+2022-10-23 01:00:38,803 INFO  unknown unknown org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor @ Autowired annotation is not supported on static methods: public static void org.dspace.rdf.storage.DOIHandleURIGenerator.setFallback(org.dspace.rdf.storage.URIGenerator)
+2022-10-23 01:00:39,235 WARN  unknown unknown org.dspace.servicemanager.DSpaceServiceManager @ Unable to locate bean by name or id=stat-general. Will try to look up bean by type next.
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'stat-general' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:872) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1344) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1160) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.dspace.servicemanager.DSpaceServiceManager.getServiceByName(DSpaceServiceManager.java:426) [dspace-services-7.4.jar:7.4]
+	at org.dspace.scripts.ScriptServiceImpl.getScriptConfiguration(ScriptServiceImpl.java:33) [dspace-api-7.4.jar:7.4]
+	at org.dspace.app.launcher.ScriptLauncher.handleScript(ScriptLauncher.java:125) [dspace-api-7.4.jar:7.4]
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:98) [dspace-api-7.4.jar:7.4]
+2022-10-23 01:00:40,582 WARN  unknown unknown org.dspace.servicemanager.DSpaceServiceManager @ Unable to locate bean by name or id=stats-util. Will try to look up bean by type next.
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'stats-util' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:872) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1344) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1160) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.dspace.servicemanager.DSpaceServiceManager.getServiceByName(DSpaceServiceManager.java:426) [dspace-services-7.4.jar:7.4]
+	at org.dspace.scripts.ScriptServiceImpl.getScriptConfiguration(ScriptServiceImpl.java:33) [dspace-api-7.4.jar:7.4]
+	at org.dspace.app.launcher.ScriptLauncher.handleScript(ScriptLauncher.java:125) [dspace-api-7.4.jar:7.4]
+	at org.dspace.app.launcher.ScriptLauncher.main(ScriptLauncher.java:98) [dspace-api-7.4.jar:7.4]
+2022-10-23 01:00:40,651 INFO  unknown unknown org.dspace.service.impl.ClientInfoServiceImpl @ Trusted proxies (configure via 'proxies.trusted.ipranges'): 52.209.192.143-52.209.192.143, 127.0.0.1-127.0.0.1
+2022-10-23 01:00:40,686 INFO  unknown unknown org.dspace.statistics.SolrStatisticsCore @ solr-statistics.server:  http://52.209.192.143:8991/solr/statistics
+2022-10-23 01:00:40,687 INFO  unknown unknown org.dspace.statistics.SolrStatisticsCore @ usage-statistics.dbfile:  null
+2022-10-23 01:00:40,730 ERROR unknown unknown org.dspace.statistics.SolrLoggerServiceImpl @ java.lang.IllegalStateException: The required 'dbfile' configuration is missing in solr-statistics.cfg!
+2022-10-23 01:00:40,770 INFO  unknown unknown org.dspace.statistics.util.SpiderDetectorServiceImpl @ Loaded Spider IP file: /dspace/config/spiders/iplists.com-altavista.txt
+2022-10-23 01:00:40,822 INFO  unknown unknown org.dspace.statistics.util.SpiderDetectorServiceImpl @ Loaded Spider IP file: /dspace/config/spiders/iplists.com-misc.txt
+2022-10-23 01:00:40,822 INFO  unknown unknown org.dspace.statistics.util.SpiderDetectorServiceImpl @ Loaded Spider IP file: /dspace/config/spiders/iplists.com-excite.txt
+2022-10-23 01:00:40,823 INFO  unknown unknown org.dspace.statistics.util.SpiderDetectorServiceImpl @ Loaded Spider IP file: /dspace/config/spiders/iplists.com-infoseek.txt
+2022-10-23 01:00:40,837 INFO  unknown unknown org.dspace.statistics.util.SpiderDetectorServiceImpl @ Loaded Spider IP file: /dspace/config/spiders/iplists.com-inktomi.txt
+2022-10-23 01:00:40,838 INFO  unknown unknown org.dspace.statistics.util.SpiderDetectorServiceImpl @ Loaded Spider IP file: /dspace/config/spiders/iplists.com-google.txt
+2022-10-23 01:00:40,839 INFO  unknown unknown org.dspace.statistics.util.SpiderDetectorServiceImpl @ Loaded Spider IP file: /dspace/config/spiders/iplists.com-lycos.txt
+2022-10-23 01:00:41,226 INFO  unknown unknown org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: classpath:org/dspace/storage/rdbms/sqlmigration/postgres, classpath:org/dspace/storage/rdbms/migration, classpath:org/dspace/storage/rdbms/xmlworkflow
+2022-10-23 01:00:41,624 INFO  unknown unknown org.flywaydb.core.internal.license.VersionPrinter @ Flyway Community Edition 8.4.4 by Redgate
+2022-10-23 01:00:41,628 INFO  unknown unknown org.flywaydb.core.internal.database.base.BaseDatabaseType @ Database: jdbc:postgresql://52.209.192.143:5432/dspace74 (PostgreSQL 12.10)
+2022-10-23 01:00:42,352 INFO  unknown unknown org.flywaydb.core.internal.license.VersionPrinter @ Flyway Community Edition 8.4.4 by Redgate
+2022-10-23 01:00:42,908 INFO  unknown unknown org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2022-10-23 01:00:43,026 INFO  unknown unknown org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2022-10-23 01:00:43,395 INFO  unknown unknown org.hibernate.Version @ HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-10-23 01:00:46,116 INFO  unknown unknown org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-23 01:00:46,989 INFO  unknown unknown org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2022-10-23 01:00:47,961 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.content.Collection]. Please see the Hibernate documentation for proper usage.
+2022-10-23 01:00:47,985 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.content.Community]. Please see the Hibernate documentation for proper usage.
+2022-10-23 01:00:48,103 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.content.Site]. Please see the Hibernate documentation for proper usage.
+2022-10-23 01:00:48,106 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.eperson.EPerson]. Please see the Hibernate documentation for proper usage.
+2022-10-23 01:00:48,137 WARN  unknown unknown org.hibernate.cfg.annotations.EntityBinder @ HHH000482: @org.hibernate.annotations.Cache used on a non-root entity: ignored for [org.dspace.eperson.Group]. Please see the Hibernate documentation for proper usage.
+2022-10-23 01:00:49,221 INFO  unknown unknown org.ehcache.xml.XmlConfiguration @ Loading Ehcache XML configuration from /dspace/config/hibernate-ehcache-config.xml.
+2022-10-23 01:00:49,733 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataSchema' created in Eh107InternalCacheManager.
+2022-10-23 01:00:49,736 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-query-results-region' created in Eh107InternalCacheManager.
+2022-10-23 01:00:49,753 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataField' created in Eh107InternalCacheManager.
+2022-10-23 01:00:49,755 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Site' created in Eh107InternalCacheManager.
+2022-10-23 01:00:49,765 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.EPerson' created in Eh107InternalCacheManager.
+2022-10-23 01:00:49,780 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Community' created in Eh107InternalCacheManager.
+2022-10-23 01:00:49,782 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-update-timestamps-region' created in Eh107InternalCacheManager.
+2022-10-23 01:00:49,784 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Collection' created in Eh107InternalCacheManager.
+2022-10-23 01:00:49,786 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.Group' created in Eh107InternalCacheManager.
+2022-10-23 01:00:49,813 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.MetadataSchema
+2022-10-23 01:00:49,814 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.Community
+2022-10-23 01:00:49,814 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=default-query-results-region
+2022-10-23 01:00:49,814 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.MetadataField
+2022-10-23 01:00:49,814 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=default-update-timestamps-region
+2022-10-23 01:00:49,815 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.Collection
+2022-10-23 01:00:49,815 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.content.Site
+2022-10-23 01:00:49,815 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.eperson.EPerson
+2022-10-23 01:00:49,815 INFO  unknown unknown org.ehcache.jsr107.Eh107CacheManager @ Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./dspace/config/hibernate-ehcache-config.xml,Cache=org.dspace.eperson.Group
+2022-10-23 01:00:49,893 INFO  unknown unknown org.hibernate.validator.internal.util.Version @ HV000001: Hibernate Validator 6.0.23.Final
+2022-10-23 01:00:53,962 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataSchema' removed from Eh107InternalCacheManager.
+2022-10-23 01:00:53,969 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-query-results-region' removed from Eh107InternalCacheManager.
+2022-10-23 01:00:53,971 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.MetadataField' removed from Eh107InternalCacheManager.
+2022-10-23 01:00:53,981 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Community' removed from Eh107InternalCacheManager.
+2022-10-23 01:00:53,982 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'default-update-timestamps-region' removed from Eh107InternalCacheManager.
+2022-10-23 01:00:53,984 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Collection' removed from Eh107InternalCacheManager.
+2022-10-23 01:00:53,985 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.content.Site' removed from Eh107InternalCacheManager.
+2022-10-23 01:00:53,987 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.EPerson' removed from Eh107InternalCacheManager.
+2022-10-23 01:00:53,988 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'org.dspace.eperson.Group' removed from Eh107InternalCacheManager.
+2022-10-23 01:00:54,057 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'sherpa.searchByJournalISSN' removed from Eh107InternalCacheManager.
+2022-10-23 01:00:54,064 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'manifests' removed from Eh107InternalCacheManager.
+2022-10-23 01:00:54,065 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'canvasdimensions' removed from Eh107InternalCacheManager.
+2022-10-23 01:02:09,868 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'sherpa.searchByJournalISSN' removed from Eh107InternalCacheManager.
+2022-10-23 01:02:09,870 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'manifests' removed from Eh107InternalCacheManager.
+2022-10-23 01:02:09,871 INFO  unknown unknown org.ehcache.core.EhcacheManager @ Cache 'canvasdimensions' removed from Eh107InternalCacheManager.

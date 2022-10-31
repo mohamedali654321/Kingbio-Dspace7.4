@@ -1,0 +1,145 @@
+##########################
+# SERVER CONFIGURATION   #
+##########################
+
+# DSpace installation directory.
+dspace.dir=/dspace
+
+# URL of DSpace backend ('server' webapp). Include port number etc.
+dspace.server.url = $DS_HOST/server
+
+# URL of DSpace frontend (Angular UI). Include port number etc
+dspace.ui.url = $DS_UI_HOST
+
+# Name of the site
+dspace.name = $DS_NAME
+
+# assetstore.dir, look at DSPACE/config/spring/api/bitstore.xml for more options
+assetstore.dir = ${dspace.dir}/assetstore
+
+# Default language for metadata values
+default.language = ar_SA, en_US
+
+# Supported languages for backend
+webui.supported.locales = ar, en
+webui.strengths.cache = true
+
+# Solr server/webapp.
+solr.server = http://$DS_SOLR_HOST:$DS_SOLR_PORT/solr
+
+
+
+##########################
+# DATABASE CONFIGURATION #
+##########################
+
+# URL for connecting to database
+db.url = jdbc:postgresql://$DB_HOST:5432/$DB_NAME
+
+# Database username and password
+db.username = $DB_USER
+db.password = $DB_PASS
+
+# Database Schema name
+db.schema = public
+
+
+#######################
+# EMAIL CONFIGURATION #
+#######################
+
+# SMTP mail server (allows DSpace to send email notifications)
+mail.server = $mail_server
+
+# SMTP mail server authentication username and password (if required)
+mail.server.username = $mail_username
+mail.server.password = $mail_password
+
+# SMTP mail server alternate port
+mail.server.port = $mail_port
+
+# From address for mail
+mail.from.address = $mail_username
+
+# When feedback is submitted via the Feedback form, it is sent to this address
+feedback.recipient = $mail_username
+
+# General site administration (Webmaster) e-mail
+mail.admin = $mail_username
+
+# Recipient for server errors and alerts (defaults to mail.admin)
+alert.recipient = ${mail.admin}
+
+# Mail admin name
+mail.admin.name = $Mail_Admin_Name
+
+registration.notify = $notify_mail_server
+
+mail.extraproperties = mail.smtp.socketFactory.port=587, \
+mail.smtp.starttls.enable=true, \
+mail.smtp.starttls.required=true, \
+mail.smtp.ssl.protocols=TLSv1.2
+
+
+#####################################
+# Authority index  Control Settings #
+#####################################
+
+# Enable ORCID authority control
+plugin.named.org.dspace.content.authority.ChoiceAuthority = \
+   org.dspace.content.authority.SolrAuthority = SolrAuthorAuthority
+
+# URL of ORCID API
+orcid.api.url = https://pub.sandbox.orcid.org/v3.0/
+orcid.url = https://sandbox.orcid.org/
+
+# ORCID Credentials
+orcid.clientid = APP-QMDRLG4ZC0HPEM26
+orcid.clientsecret = 91fe1f2f-5947-441d-8ad0-27cd71b7cda4
+
+#ORCID JWT Endpoint
+orcid.oauth.url = https://sandbox.orcid.org/oauth/token
+
+orcid.synchronization-enabled = true
+authentication-orcid.can-self-register = true
+
+# Add IIIF and Authority to default consumers line (718)
+event.dispatcher.default.consumers = authority, versioning, discovery, eperson, iiif, orcidqueue, doi
+
+solr.authority.server=${solr.server}/authority
+choices.plugin.dc.contributor.author = SolrAuthorAuthority
+choices.presentation.dc.contributor.author = authorLookup
+authority.controlled.dc.contributor.author = true
+authority.author.indexer.field.1=dc.contributor.author
+
+
+###########################
+# Thumbnail CONFIGURATION #
+###########################
+
+webui.browse.thumbnail.show = true
+webui.browse.thumbnail.maxheight = 600
+webui.browse.thumbnail.maxwidth = 600
+
+webui.itemlist.columns = thumbnail, dc.date.issued(date), dc.title, dc.contributor.*
+
+webui.itemlist.dateaccessioned.columns = thumbnail, dc.date.accessioned(date), dc.title, dc.contributor.*
+
+thumbnail.maxwidth  = 600
+thumbnail.maxheight = 600
+
+
+#############################
+# IIIf Viewer CONFIGURATION #
+#############################
+
+iiif.enabled = true
+iiif.image.server = $iiif_server
+
+
+######################
+# REST CONFIGURATION #
+######################
+
+# Allowed Cross-Origin-Resource-Sharing (CORS) origins (in "Access-Control-Allow-Origin" header).
+rest.cors.allowed-origins = ${dspace.ui.url},http://localhost:4000

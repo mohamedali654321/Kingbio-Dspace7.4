@@ -1,0 +1,22 @@
+<div ngbDropdown class="navbar-nav"  display="dynamic" placement="bottom-right">
+    <a href="#" role="button"
+       [attr.aria-label]="'nav.help' |translate"
+       [title]="'nav.help' | translate" class="px-1"
+       (click)="$event.preventDefault()" data-toggle="dropdown" ngbDropdownToggle
+       tabindex="2">
+      <i  class="far fa-question-circle"></i>
+    </a>
+    <ul ngbDropdownMenu class="dropdown-menu"  >
+        
+      <li  class="dropdown-item" tabindex="0" > <a class="link" target="_blank"  href="http://dspace-wiki.kwaretech.com/{{lang}}/home"> {{"help.link.home-dspace" | translate}}</a></li>
+      <li class="dropdown-item" tabindex="0" > <a class="link" target="_blank"  href="http://dspace-wiki.kwaretech.com/{{lang}}/docs/about-dspace"> {{"help.link.about-dspace" | translate}}</a></li>
+      <li class="dropdown-item" tabindex="0" > <a class="link" target="_blank"  href="http://dspace-wiki.kwaretech.com/{{lang}}/docs/intro"> {{"help.link.intro-dspace" | translate}}</a></li>
+      <li class="dropdown-item" tabindex="0" > <a class="link" target="_blank"  href="http://dspace-wiki.kwaretech.com/{{lang}}/docs/release-notes"> {{"help.link.release-notes-dspace" | translate}}</a></li>
+      <li class="dropdown-item" tabindex="0" > <a class="link" target="_blank"  href="http://dspace-wiki.kwaretech.com/{{lang}}/docs/functional-overview"> {{"help.link.functional-overview-dspace" | translate}}</a></li>
+      <li class="dropdown-item" tabindex="0" > <a class="link" target="_blank"  href="http://dspace-wiki.kwaretech.com/{{lang}}/docs/using-dspace"> {{"help.link.using-dspace" | translate}}</a></li>     
+
+           
+      
+    </ul>
+  </div>
+  

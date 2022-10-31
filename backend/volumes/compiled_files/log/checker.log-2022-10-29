@@ -1,0 +1,94 @@
+Run start time: 10/29/2022 04:01:20
+org.dspace.content.Bitstream@1121aefa 139cd97a-33ef-40d0-9848-3089a91aed25 عبد القاهر الجرجاني.jpg
+org.dspace.content.Bitstream@2d84b052 e893784f-722c-4e6b-9220-28f3251b5b89 license_rdf
+org.dspace.content.Bitstream@15ec902 1de8f4d2-58f7-4ab2-8f07-7598cb4695f6 ملصق_للحرب_العالمية_الثانية.jpg
+org.dspace.content.Bitstream@66e52ff 6ca897ac-7705-4901-89ee-8f2e942eb988 license.txt
+org.dspace.content.Bitstream@32d0de6 965b4157-4ef3-4a6c-bc2b-cdb367af647a ملصق_للحرب_العالمية_الثانية.jpg.jpg
+org.dspace.content.Bitstream@7b3ecec8 0bda6d2a-e6f6-49b1-be7c-5773286e103c filter-media57.log
+org.dspace.content.Bitstream@efd5c999 46060f36-c9d2-48f5-8602-32e1e6032b87 عبد القاهر الجرجاني.jpg.jpg
+org.dspace.content.Bitstream@d88c5f43 9e96c0cf-7822-415a-9e94-9a65a0abefbf البعد الثقافي لمجتمع مدينة يثرب قبل الإسلام.txt
+org.dspace.content.Bitstream@4c96c212 93417d99-2f30-401d-af4b-e9465fac83dc البعد الثقافي لمجتمع مدينة يثرب قبل الإسلام.jpg
+******************************************************
+Bitstream ID: c6f1dbdb-7e96-4a8b-806d-e0e90df29401
+Bitstream info found: false
+Bitstream marked deleted: true
+Bitstream found: false
+To be processed: false
+Internal Id: 167263835766730586832909297059520821676
+Name: عبد القاهر الجرجاني.jpg
+Store number: 0
+Size: 9961
+Bitstream format: 16
+User format description: null
+Source: عبد القاهر الجرجاني.jpg
+Checksum algorithm: MD5
+Previous checksum: a86bcde532e63145907cf694c8cbca60
+Previous checksum date: 10/29/2022 04:01:23
+New checksum: a86bcde532e63145907cf694c8cbca60
+Checksum comparison result: BITSTREAM_MARKED_DELETED
+
+
+
+******************************************************
+Bitstream ID: 056c5336-9f76-478b-80d3-a82f99d4a5db
+Bitstream info found: false
+Bitstream marked deleted: true
+Bitstream found: false
+To be processed: false
+Internal Id: 82801249486293883960113063934762397915
+Name: license_rdf
+Store number: 0
+Size: 701
+Bitstream format: 78
+User format description: null
+Source: org.dspace.license.CreativeCommons
+Checksum algorithm: MD5
+Previous checksum: 42fd4ad1e89814f5e4a476b409eb708c
+Previous checksum date: 10/29/2022 04:01:23
+New checksum: 42fd4ad1e89814f5e4a476b409eb708c
+Checksum comparison result: BITSTREAM_MARKED_DELETED
+
+
+
+******************************************************
+Bitstream ID: 1b840929-788e-465f-902b-e9ee139f34de
+Bitstream info found: false
+Bitstream marked deleted: true
+Bitstream found: false
+To be processed: false
+Internal Id: 168500405105680787792024613011611095533
+Name: عبد القاهر الجرجاني.jpg
+Store number: 0
+Size: 9961
+Bitstream format: 16
+User format description: null
+Source: null
+Checksum algorithm: MD5
+Previous checksum: a86bcde532e63145907cf694c8cbca60
+Previous checksum date: 10/29/2022 04:01:23
+New checksum: a86bcde532e63145907cf694c8cbca60
+Checksum comparison result: BITSTREAM_MARKED_DELETED
+
+
+
+******************************************************
+Bitstream ID: ccee8a10-fb03-4d77-9961-f6f7a4f05d14
+Bitstream info found: false
+Bitstream marked deleted: true
+Bitstream found: false
+To be processed: false
+Internal Id: 80747717596057631002540713504125652262
+Name: عبد القاهر الجرجاني.jpg.jpg
+Store number: 0
+Size: 9535
+Bitstream format: 16
+User format description: null
+Source: Written by FormatFilter org.dspace.app.mediafilter.JPEGFilter on 2022-10-27T23:21:05Z (GMT).
+Checksum algorithm: MD5
+Previous checksum: c95f68cf3484fc3adf2f9bf139cb1b9c
+Previous checksum date: 10/29/2022 04:01:30
+New checksum: c95f68cf3484fc3adf2f9bf139cb1b9c
+Checksum comparison result: BITSTREAM_MARKED_DELETED
+
+
+

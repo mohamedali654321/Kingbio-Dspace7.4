@@ -1,0 +1,1276 @@
+@font-face {
+  font-family: cufi;
+  src: url(../assets/fonts/Droid.Arabic.Kufi.ttf) format("opentype");
+}
+
+// change direction of body to rtl and use kufi font in arabic interface
+::ng-deep html[dir="rtl"] body {
+  text-align: right;
+  font-family: cufi;
+}
+// margin close sign in header modal to left of export , new or edit  (community , collection , item ) in arabic interface
+::ng-deep html[dir="rtl"] .modal-header {
+  .close {
+    margin: -1rem auto -1rem -1rem;
+  }
+}
+// align text to right in .dropdown in DSpace in arabic interface
+::ng-deep html[dir="rtl"] .dropdown-menu {
+  text-align: right !important;
+  // transform: translate(-1px, 27px) !important;
+  // min-width: 26rem !important;
+
+}
+
+// dropdown-menu of language switcher menue in arabic interface
+::ng-deep html[dir="rtl"] ds-lang-switch > div > .dropdown-menu {
+  transform: translate(10px, 27px) !important;
+}
+// dropdown-menu of helper meue in arabic interface
+::ng-deep html[dir="rtl"] ds-help-links > div > .dropdown-menu {
+  transform: translate(10px, 27px) !important;
+}
+// dropdown-menu of auth menue in arabic interface
+::ng-deep html[dir="rtl"] ds-auth-nav-menu > ul > li > div > .dropdown-menu {
+  transform: translate(10px, 27px) !important;
+}
+// search input in navbar  to open ltr in RTL (ds-search-navbar component)
+::ng-deep html[dir="rtl"] .dropdown-menu-right {
+  left: 0;
+  right: auto;
+}
+
+::ng-deep html[dir="rtl"] ds-dynamic-form-array > div > div > div {
+  margin-right: calc(-2.3 * var(--bs-spacer)) !important;
+  margin-left: calc(-0.5 * var(--bs-spacer)) !important;
+  padding-left: calc(0.5 * var(--bs-spacer)) !important;
+  padding-right: unset !important;
+}
+// // saved icon in submission form footer
+// ::ng-deep html[dir="rtl"] ds-submission-form-footer {
+//   .d-flex {
+//     display: -webkit-box !important;
+//   }
+// }
+
+::ng-deep html[dir="rtl"] .ml-2,
+.mx-2 {
+  margin-right: 0.5rem !important;
+  margin-left: unset !important;
+
+}
+
+
+::ng-deep  .ml-2,
+.mx-2 {
+
+  display: flex;
+  gap: 7px;
+}
+::ng-deep html[dir="rtl"] .pl-4,
+.px-4 {
+  padding-right: 1.5rem !important;
+}
+// alert , notification content in (ds-alrt ,ds-notification component) RTL
+::ng-deep html[dir="rtl"] .alert-dismissible {
+  padding-left: 4rem !important;
+  padding-right: 1rem !important;
+}
+// alert , notification close sign in (ds-alrt ,ds-notification component) RTL
+::ng-deep html[dir="rtl"] .alert-dismissible .close {
+  left: 0 !important;
+  right: unset !important;
+}
+
+// invalid input
+::ng-deep html[dir="rtl"] .form-control.is-invalid {
+  padding-left: calc(1.5em + 0.75rem) !important;
+  padding-right: unset !important;
+  background-position: center left calc(0.375em + 0.1875rem) !important;
+}
+// sidebar modification in RTL
+::ng-deep html[dir="rtl"] ds-admin-sidebar {
+  left: auto;
+  nav {
+    ol,
+    ul,
+    dl {
+      padding-right: 0 !important;
+    }
+    > div {
+      &.sidebar-top-level-items {
+        overflow-x: hidden !important;
+      }
+    }
+    &.inactive ::ng-deep .sidebar-collapsible {
+      margin-right: calc(-1 * var(--ds-sidebar-items-width));
+      .fa-pull-right {
+        float: unset !important;
+      }
+    }
+    .fa,
+    .fas {
+      transform: scaleX(-1);
+    }
+    .fa-pull-right {
+      float: left;
+    }
+    [transform="rotate(0deg)"] .fas,
+    .fa-chevron-right {
+      transform: scaleX(-1) !important;
+      // transform: rotate(90deg) !important;
+    }
+  }
+
+  .d-flex {
+    display: -webkit-box !important;
+  }
+
+  .navbar-nav {
+    .sidebar-section {
+      .sidebar-collapsible {
+        padding-right: unset !important;
+        padding-left: var(--bs-spacer) !important;
+      }
+    }
+  }
+}
+
+//end sidebar modification
+
+// align buttons at left side of page
+::ng-deep html[dir="rtl"] .ml-auto,
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: unset !important;
+}
+// align buttons at left side of page
+::ng-deep html[dir="rtl"] .mr-auto,
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: unset !important;
+}
+
+// dropdown-menu of collections in submission form page
+::ng-deep html[dir="rtl"] ds-dynamic-scrollable-dropdown {
+  .dropdown-menu {
+    transform: translate(-1px, 35px) !important;
+  }
+  i {
+    left: 0 !important;
+    right: unset !important;
+  }
+}
+// Add more btn  in submission-form page
+::ng-deep html[dir="rtl"] ds-submission-form-section-add {
+  .btn-outline-primary {
+    float: left !important;
+  }
+}
+
+// align btns at left of page
+::ng-deep html[dir="rtl"] .float-right {
+  float: left !important;
+}
+// align btns at right of page
+::ng-deep html[dir="rtl"] .float-left {
+  float: right !important;
+}
+// change dierction of font awesome icons direction
+::ng-deep html[dir="rtl"] .fas {
+  transform: scaleX(-1) !important;
+}
+// change dierction of help icons direction
+::ng-deep html[dir="rtl"] .fa-question-circle {
+  transform: rotateY(180deg) !important ;
+}
+// align footer text at center of page
+::ng-deep html[dir="rtl"] ds-footer {
+  footer {
+    .text-lg-start {
+      text-align: center !important;
+    }
+  }
+}
+
+// change borders of buttons content icons like remove , edit, ... in RTL
+::ng-deep html[dir="rtl"] .input-group > .input-group-append > .btn,
+.input-group > .input-group-append > .input-group-text,
+.input-group > .input-group-prepend:not(:first-child) > .btn,
+.input-group > .input-group-prepend:not(:first-child) > .input-group-text,
+.input-group > .input-group-prepend:first-child > .btn:not(:first-child),
+.input-group
+  > .input-group-prepend:first-child
+  > .input-group-text:not(:first-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+// change borders of buttons content icons like remove , edit, ... in RTL
+::ng-deep html[dir="rtl"] .input-group > .input-group-prepend > .btn,
+.input-group > .input-group-prepend > .input-group-text,
+.input-group > .input-group-append:not(:last-child) > .btn,
+.input-group > .input-group-append:not(:last-child) > .input-group-text,
+.input-group
+  > .input-group-append:last-child
+  > .btn:not(:last-child):not(.dropdown-toggle),
+.input-group
+  > .input-group-append:last-child
+  > .input-group-text:not(:last-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+// change borders of buttons content icons like remove , edit, ... in RTL and make icon at center
+::ng-deep html[dir="rtl"] .btn-group > .btn:not(:first-child),
+.btn-group > .btn-group:not(:first-child) > .btn {
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  margin-right: -1px;
+  margin-left: unset;
+}
+
+// change borders of buttons content icons like remove , edit, ... in RTL
+::ng-deep
+  html[dir="rtl"]
+  .btn-group
+  > .btn:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn-group:not(:last-child) > .btn {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+// change borders of buttons content icons like remove , edit, ... in RTL
+::ng-deep html[dir="rtl"] .input-group > .form-control:not(:last-child),
+.input-group > .custom-select:not(:last-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-right: -1px !important;
+}
+
+// change borders of buttons content icons like remove , edit, ... in RTL
+::ng-deep html[dir="rtl"] .list-group-horizontal .list-group-item:first-child {
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+}
+
+// change borders of buttons content icons like remove , edit, ... in RTL
+::ng-deep html[dir="rtl"] .list-group-horizontal .list-group-item:last-child {
+  margin-left: 0;
+  margin-right: -1px !important;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0;
+}
+
+// space between Add btn and save ,discard btn in edit-metadat page
+::ng-deep html[dir="rtl"] {
+  ds-item-metadata {
+    .button-row .btn {
+      margin-left: calc(0.5 * var(--bs-spacer));
+    }
+    .button-row .btn:last-child {
+      margin-left: 0;
+    }
+  }
+}
+
+::ng-deep html[dir="rtl"] .list-unstyled {
+  padding-right: 0;
+}
+
+// general css
+::ng-deep {
+  body {
+    color: #530a86 !important;
+
+
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #530a86 !important;
+    border-color: #530a86 !important;
+  }
+  .input-group > .form-control {
+    border: 1px solid #530a86;
+  }
+  .dropdown-menu > .dropdown-item {
+    color: #530a86;
+    background-color: transparent;
+    &.active {
+      color: #fff;
+      text-decoration: none;
+      background-color: #530a86;
+    }
+  }
+
+  ds-navbar > nav.navbar {
+    border-bottom: 5px #530a86 solid !important;
+  }
+
+  .page-item.active .page-link {
+    background-color: #530a86 !important;
+    border-color: #530a86 !important;
+  }
+
+  form > a {
+    color: #530a86 !important;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  ds-community-list-element > a {
+    color: #530a86 !important;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  ds-item-search-result-list-element > ds-truncatable > div > a {
+    color: #530a86 !important;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  .clamp-default-1 > .content {
+    position: inherit !important;
+    &:after {
+      position: inherit !important;
+    }
+  }
+
+  .clamp-default-3 > .content {
+    position: inherit !important;
+    &:after {
+      position: inherit !important;
+    }
+  }
+
+  .badge-info {
+    background-color: lighten(#530a86, 15%) !important;
+  }
+
+  .btn-outline-primary {
+    color: lighten(#530a86, 15%) !important;
+    &:hover {
+      color: #fff !important;
+    }
+  }
+
+  .btn-outline-primary.disabled,
+  .btn-outline-primary:disabled {
+    &:hover {
+      color: #530a86 !important;
+    }
+  }
+
+  .navbar-nav {
+    padding-right: 0;
+  }
+
+   ds-collection-grid-element  .card{
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+      &:hover{
+          transform: scale(1.04)
+      }
+      transition: .5s;
+  }
+  ds-community-grid-element .card{
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    &:hover{
+        transform: scale(1.04)
+    }
+    transition: .5s;
+}
+
+ds-item-search-result-grid-element .card{
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  &:hover{
+      transform: scale(1.04)
+  }
+  transition: .5s;
+}
+
+ds-collection-search-result-grid-element .card{
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  &:hover{
+      transform: scale(1.04)
+  }
+  transition: .5s;
+}
+
+ds-community-search-result-grid-element .card{
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  &:hover{
+      transform: scale(1.04)
+  }
+  transition: .5s;
+}
+
+
+ds-item-search-result-grid-element .card{
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  &:hover{
+      transform: scale(1.04)
+  }
+  transition: .5s;
+}
+  ds-dynamic-scrollable-dropdown {
+    input {
+      background-color: #fff !important;
+    }
+  }
+}
+// end general css
+
+// metadata icons (edit,remove,undo) in edit-metadata page
+::ng-deep html[dir="rtl"] ds-item-metadata {
+  .fas {
+    transform: scaleX(1) !important;
+  }
+}
+
+// arrow in community-list page
+::ng-deep html[dir="rtl"] ds-community-list {
+  .fa-chevron-right {
+    transform: scaleX(-1) !important;
+  }
+}
+
+// check-circle icon direction  in successful alert
+::ng-deep html[dir="rtl"] .fa-check-circle {
+  transform: scaleX(1) !important;
+}
+
+// responsive dropdown-menu of helper
+@media (max-width: 450px) {
+  ::ng-deep html[dir="rtl"] ds-help-links > div > .dropdown-menu {
+    transform: translate(-60px, 27px) !important;
+  }
+}
+
+// align alert in RTL
+::ng-deep html[dir="rtl"] .alert {
+  text-align: right !important;
+}
+
+// dropdown-menu in submission-form page
+::ng-deep html[dir="rtl"] ds-submission-form-collection {
+  #collectionControlsDropdownMenu {
+    // transform: translate(-160px,38px) !important;
+    right: 65px !important;
+    min-width: 26rem !important;
+  }
+}
+
+// space between label and checkbox in ds-dynamic-form-control-container component
+::ng-deep html[dir="rtl"] ds-dynamic-form-control-container label > span {
+  margin-right: 20px !important;
+}
+
+// space between brosew all and search form in Add sub-group , Epeople
+::ng-deep html[dir="rtl"] ds-subgroups-list .float-right {
+  margin-right: 30px !important;
+}
+
+// hidden selected (collection ,communty) in edit , new (collection,item) in modal
+::ng-deep html[dir="rtl"] .clamp-primary-1 .content::after {
+  position: inherit !important;
+}
+
+// to align list of chars (A-Z,أ-ى) with other elemnts of browse by pages
+::ng-deep html[dir="rtl"] ds-starts-with-text {
+  .list-inline {
+    margin-right: -49px !important;
+  }
+}
+
+// remove btn borders in edit metadata page
+::ng-deep html[dir="rtl"] ds-edit-in-place-field {
+  .btn-outline-danger {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+  }
+}
+
+// space between modal-footer elements
+::ng-deep html[dir="rtl"] .modal-footer > :not(:first-child) {
+  margin-right: 0.75rem;
+}
+
+::ng-deep html[dir="rtl"] ds-search-facet-option > label > span {
+  margin-right: 0 !important;
+}
+
+// make space between btns in ds-groups-registry  component
+::ng-deep html[dir="rtl"] ds-groups-registry .btn-secondary {
+  margin-right: 20px !important;
+}
+
+// make space between btns in ds-members-list  component
+::ng-deep html[dir="rtl"] ds-members-list .btn-secondary {
+  margin-right: 20px !important;
+}
+
+// space between search form and browse all btn in EPeople page
+::ng-deep html[dir="rtl"] ds-members-list .input-group {
+  margin-right: 15px !important;
+}
+
+::ng-deep html[dir="rtl"] .mr-3,
+.mx-3 {
+  margin-right: 0rem !important;
+}
+
+// back to results arrow direction
+::ng-deep html[dir="rtl"] ds-search-sidebar .fa-arrow-right {
+  transform: scale(1) !important;
+}
+
+// align dropdown-menu with checkbox in adding relation page at left
+::ng-deep
+  html[dir="rtl"]
+  ds-dynamic-lookup-relation-search-tab
+  .position-absolute {
+  right: 85% !important;
+}
+
+::ng-deep
+  html[dir="rtl"]
+  ds-dynamic-lookup-relation-search-tab
+  ds-item-search-result-list-element
+  ds-type-badge
+  .badge-info {
+  margin-right: 20px !important;
+}
+
+// badge-info label and item info start from same point in add relation page
+::ng-deep
+  html[dir="rtl"]
+  ds-dynamic-lookup-relation-search-tab
+  ds-item-search-result-list-element
+  ds-truncatable
+  .truncate {
+  margin-right: 20px !important;
+}
+
+// make space between btns in ds-dynamic-lookup-relation-modal component
+::ng-deep
+  html[dir="rtl"]
+  ds-dynamic-lookup-relation-modal
+  .btn-outline-secondary {
+  margin-left: 6px !important;
+}
+
+// make space between btns in ds-item-relationships component
+::ng-deep html[dir="rtl"] ds-item-relationships .top .btn-danger {
+  margin-left: 6px !important;
+}
+
+// make space between btns in ds-item-bitstreams component
+::ng-deep html[dir="rtl"] ds-item-bitstreams .top .btn-primary {
+  margin-left: 6px !important;
+}
+
+// make space between btns in ds-collection-select component
+::ng-deep html[dir="rtl"] ds-collection-select .collection-cancel {
+  margin-left: 6px !important;
+}
+
+// make point  (•) at center between breadcrumb-items
+::ng-deep
+  html[dir="rtl"]
+  ds-breadcrumbs
+  .breadcrumb-item
+  + .breadcrumb-item::before {
+  margin-left: 12px !important;
+}
+
+// make space between label and check-box
+::ng-deep html[dir="rtl"] .form-check-label {
+  margin-right: 20px !important;
+}
+
+//  make space between date-picker value and counter in Edit resource policy component
+::ng-deep html[dir="rtl"] ngb-datepicker-navigation-select > .custom-select {
+  padding: 0 1.2rem !important;
+}
+
+// make space between btns in ds-edit-community component
+::ng-deep html[dir="rtl"] ds-edit-community button .float-right {
+  margin-left: 10px !important;
+}
+
+// make space between btns in ds-email-request-copy  component
+::ng-deep html[dir="rtl"] ds-email-request-copy {
+  .btn.btn-outline-secondary.mr-1 {
+    margin-left: 10px !important;
+  }
+}
+// make space between btns in ds-resource-policies component
+::ng-deep html[dir="rtl"] ds-resource-policies {
+  .btn.btn-success.float-right {
+    margin-left: 10px !important;
+  }
+}
+
+// rotate check box sign at adding relation window in relationship item page
+::ng-deep html[dir="rtl"] ds-dynamic-lookup-relation-search-tab {
+  .input-group-prepend {
+    transform: scale(-1) !important;
+  }
+}
+
+// ::ng-deep html[dir="rtl"] ds-dynamic-lookup-relation-search-tab {
+//   .ng-star-inserted {
+//     transform: scale(-1) !important;
+//   }
+// }
+
+/** start handle cookies */
+::ng-deep html[dir="rtl"] .klaro .cookie-modal .cm-modal .hide {
+  left: 20px !important;
+  right: unset !important;
+}
+
+::ng-deep html[dir="rtl"] .klaro .cookie-notice p {
+  text-align: right !important;
+}
+
+::ng-deep html[dir="rtl"] .klaro .cookie-modal h1 {
+  text-align: right !important;
+}
+
+::ng-deep html[dir="rtl"] .klaro .cookie-modal p {
+  text-align: right;
+}
+
+::ng-deep
+  html[dir="rtl"]
+  .klaro
+  .cookie-modal
+  .cm-modal
+  .cm-footer
+  .cm-powered-by {
+  text-align: left;
+  padding-right: unset;
+}
+
+::ng-deep html[dir="rtl"] .klaro .cookie-modal li {
+  text-align: right !important;
+}
+
+::ng-deep html[dir="rtl"] .klaro .cookie-modal .cm-list-label .cm-switch {
+  left: unset !important;
+  right: 0 !important;
+}
+
+::ng-deep
+  html[dir="rtl"]
+  .klaro
+  .cookie-modal
+  .cm-modal
+  .cm-body
+  ul.cm-purposes
+  li.cm-purpose {
+  padding-left: unset !important;
+  padding-right: 60px !important;
+}
+
+::ng-deep html[dir="rtl"] .klaro .cookie-modal .cm-modal .cm-header h1.title {
+  padding-right: unset;
+}
+
+::ng-deep
+  html[dir="rtl"]
+  .klaro
+  .cookie-modal
+  .cm-modal
+  .cm-body
+  ul.cm-purposes
+  li.cm-service {
+  padding-right: 60px !important;
+  padding-left: unset !important;
+}
+/** end handle cookies */
+
+// Search pagination start btn
+::ng-deep html[dir="rtl"] .page-item:last-child .page-link {
+  border-top-left-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+  border-top-right-radius: 0rem !important;
+  border-bottom-right-radius: 0rem !important;
+}
+
+// Search pagination end btn
+::ng-deep html[dir="rtl"] .page-item:first-child .page-link {
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+  border-top-left-radius: 0rem !important;
+  border-bottom-left-radius: 0rem !important;
+}
+
+// browse all btn in policy page
+::ng-deep html[dir="rtl"] ds-group-search-box {
+  .btn-secondary{
+
+    margin-right: 20px !important;
+
+    }
+
+}
+
+
+// cookies msg
+::ng-deep html[dir="ltr"] .klaro .cookie-notice {
+
+  left: 20px !important;
+
+}
+
+// date-picker inputs in submission form
+ ::ng-deep html[dir="rtl"] ds-number-picker .mr-3 {
+    margin-right: 1rem !important;
+  }
+
+
+
+
+//author authoraity-index circle
+  ::ng-deep html[dir="rtl"] ds-dynamic-onebox .right-addon .far, .right-addon .fas, .right-addon i {
+    left: 0;
+  }
+
+
+  ::ng-deep html[dir="rtl"] ds-dynamic-form-control-container  .right-addon .far, .right-addon .fas, .right-addon i  {
+    left: 0 !important;
+  }
+
+// footer list
+   ::ng-deep html[dir="rtl"] ds-footer .bottom-footer {
+    ul {
+      margin-top: 10px;
+    }
+  }
+
+
+
+  // card count in grid view at mobile view
+
+    ::ng-deep html[dir="rtl"] ds-top-level-community-list{
+      @media (max-width:480) {
+        .row{
+          display: grid;
+        }
+
+      }
+    }
+
+
+
+// size of card body
+  ::ng-deep ds-community-grid-element {
+
+p{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  height: 70px;
+}
+
+h4{
+  height: 80px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+    }
+
+
+ ::ng-deep  ds-collection-grid-element{
+      p{
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        height: 70px;
+      }
+
+      h4{
+        height: 80px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+
+    }
+
+  }
+
+
+    // orcid search circle in author input
+  ::ng-deep html[dir="rtl"] ds-dynamic-lookup .col i{
+    margin-left: 10px !important;
+  }
+
+
+// pagination control panel
+
+  ::ng-deep html[dir="rtl"] ds-pagination {
+
+    @media (max-width:980px) {
+      #paginationControlsDropdownMenu{
+        transform: translate(1px, 38px) !important;
+      }
+
+    }
+
+  }
+
+
+    // checkbox submission-form license
+    ::ng-deep html[dir="rtl"] dynamic-ng-bootstrap-checkbox {
+
+      .custom-control-label::before , .custom-control-label::after{
+        left: 140px !important;
+        top: 10px;
+      }
+
+
+    }
+
+  //  pagination in recent submission
+
+    ::ng-deep ds-recent-item-list{
+      .pagination-info , #paginationControls , .pagination{
+          visibility: hidden;
+          opacity: 0;
+          display: none;
+      }
+  }
+
+ ::ng-deep html[dir="rtl"] ds-starts-with-text  ul{
+      width: 690px;
+    }
+
+
+    ::ng-deep  ds-starts-with-text  ul{
+      width: 620px;
+    }
+
+
+  ::ng-deep .card:hover{
+      border: #530a86 1.5px solid;
+    }
+
+
+
+
+
+    ::ng-deep .keys-info{
+      width: 100%;
+    margin-bottom: 15px !important;
+
+
+      span{
+          background-color: #fff !important;
+          white-space: -webkit-nowrap !important;
+      }
+      a{
+          color: #207698;
+         font-size: 12px;
+          font-weight: 800;
+
+      }
+  }
+
+//show count results
+  ::ng-deep  ds-pagination .col-auto{
+    margin-bottom: 30px;
+  }
+
+  //pagination
+  ::ng-deep  ds-pagination .pagination{
+
+    margin-top: 30px;
+  }
+
+
+
+
+  ::ng-deep ds-root main{
+     margin-top: 104px !important;
+  }
+
+
+
+ ::ng-deep html[dir="ltr"] {
+  .atss-left {
+
+    right: 0;
+    float: right;
+    left:auto;
+  }
+
+
+ }
+
+
+
+
+
+
+::ng-deep html[dir="rtl"] .at4-follow{
+  left: 0 !important;
+  right: auto !important;
+
+ }
+
+
+
+
+
+
+// share icons
+
+  ::ng-deep html[dir="ltr"] {
+    .slideInLeft {
+      animation-name: slideInRight !important;
+  }
+
+  .slideOutLeft {
+    animation-name: slideOutRight !important;
+}
+  #at4-soc {
+    transform: scale(-1);
+     right: 0 !important;
+     left: auto !important;
+ }
+
+ .at4-share .at-left{
+  transform: scale(-1) !important;
+ }
+ .at-right{
+  transform: scale(-1) !important;
+ }
+
+ .atss .at-share-btn, .atss a{
+  float: right !important;
+ }
+
+  }
+
+
+
+
+  ::ng-deep html[dir="rtl"]{
+    div.at4-arrow{
+      text-align:right !important ;
+    }
+
+    .at4-share .at-left{
+      margin-right: 27px;
+     }
+  }
+
+
+
+
+
+
+  // follow icons
+  ::ng-deep .at4-follow-container{
+    display: flex !important;
+    flex-direction: column !important;
+
+ }
+
+  ::ng-deep html[dir="ltr"]{
+    .at4-follow-container{
+      margin-right: -20px !important;
+
+    }
+    .at4-follow .at4-follow-inner .at4-follow-close-control div{
+      transform: scale(1) !important;
+    }
+  }
+
+  ::ng-deep html[dir="rtl"]{
+    .at4-follow-container{
+      margin-left: 0px !important;
+
+    }
+
+
+    .at-follow-btn{
+      margin: 0 27px 5px 0 !important;
+    }
+
+    #at4-foc{
+      left: 0 !important;
+      right: auto;
+    }
+
+    .slideOutRight {
+      animation-name: slideOutLeft;
+  }
+
+  .slideInRight {
+    animation-name: slideInLeft;
+}
+
+
+.at-follow-open-control div.at4-arrow.at-left{
+  transform: scale(-1) !important;
+}
+
+.at4-follow .at4-follow-inner .at4-follow-close-control div{
+
+  transform: scale(-1) !important;
+}
+
+
+
+  }
+
+
+// image slider btns
+
+  ::ng-deep html[dir="rtl"]{
+    .carousel-control-next{
+      left: 0 !important;
+      right: auto !important;
+      transform: scale(-1);
+    }
+
+
+    .carousel-control-prev{
+
+      left: auto !important;
+      right: 0 !important;
+      transform: scale(-1);
+    }
+
+  }
+  ::ng-deep html[dir="rtl"] ds-item-search-result-grid-element{
+
+    .share-options{
+      bottom: 90%;
+    }
+
+  }
+
+
+  ::ng-deep html[dir="ltr"] ds-item-search-result-grid-element{
+
+    .share-options{
+      bottom: 90%;
+    }
+
+  }
+
+
+  ::ng-deep .wadgets{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  //   gap: 90px;
+    width: 100%;
+    max-width: 1250px;
+    z-index: 1;
+    position: relative;
+  }
+
+
+
+
+::ng-deep html[dir="rtl"]  ds-collection-search-result-grid-element .share-btn {
+  right: -70px;
+}
+
+
+::ng-deep html[dir="rtl"]  ds-community-search-result-grid-element .share-btn {
+  right: -70px;
+}
+
+
+::ng-deep html[dir="rtl"] ds-search-results ds-item-search-result-grid-element .share-btn {
+  right: -70px;
+}
+
+
+
+::ng-deep html[dir="ltr"]  ds-collection-search-result-grid-element .share-btn {
+  left: -64px;
+}
+
+
+::ng-deep html[dir="ltr"]  ds-community-search-result-grid-element .share-btn {
+  left: -64px;
+}
+
+
+::ng-deep html[dir="ltr"] ds-search-results ds-item-search-result-grid-element .share-btn {
+  left: -64px;
+}
+
+
+// relationship results in modal
+  ::ng-deep html[dir="rtl"] ds-object-list{
+
+    .mb-4{
+      gap: 18px;
+    }
+  }
+
+
+//pop-up in relationship-entity
+::ng-deep html[dir="rtl"] {
+
+  form::before {
+
+    left: 0 !important;
+    right: auto !important;
+
+    }
+
+}
+
+// date-picker slider in RTL
+::ng-deep html[dir="rtl"] ds-search-range-filter{
+  .noUi-handle {
+    left: -9px !important;
+
+  }
+}
+
+
+::ng-deep  ds-dynamic-lookup-relation-search-tab{
+  .add-filter .form-control {
+     width: 61px !important;
+  }
+
+}
+
+
+::ng-deep .label_dage{
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  align-items: center;
+
+  justify-items: center;
+
+}
+
+
+::ng-deep html[dir="rtl"] .fa-check{
+  transform: scaleX(1) !important;
+}
+
+
+::ng-deep html[dir="rtl"] ds-publication{
+  .ngx-gallery-image{
+    background-position: right !important;
+  }
+}
+
+::ng-deep html[dir="ltr"] ds-publication{
+  .ngx-gallery-image{
+    background-position: left !important;
+  }
+}
+
+
+::ng-deep html[dir="rtl"] ds-dynamic-onebox{
+  .fa-circle{
+    left: 0 !important;
+    right: auto !important;
+  }
+}
+
+
+
+::ng-deep  .space-children-mr{
+display: flex;
+gap: 7px;
+}
+
+
+::ng-deep html[dir="rtl"] #paginationControls{
+  margin-right: 7px !important;
+}
+
+
+::ng-deep html[dir="ltr"] ds-edit-item-page{
+   .btn-outline-secondary{
+
+      margin-right: 7px !important;
+
+  }
+}
+
+
+::ng-deep html[dir="rtl"] ds-profile-page-researcher-form{
+  .btn-danger{
+    margin-right: 7px !important;
+  }
+}
+
+
+::ng-deep html[dir="rtl"]  ds-orcid-auth{
+  .btn-primary {
+    margin-left: 7px !important;
+  }
+}
+
+
+::ng-deep html[dir="ltr"] ds-orcid-auth .btn-primary {
+  margin-right: 7px !important;
+}
+
+
+::ng-deep  ds-orcid-sync-setting{
+  .ml-2{
+    display: inline !important;
+  }
+}
+
+
+::ng-deep ds-breadcrumbs{
+  li .text-truncate{
+    white-space: unset !important;
+  }
+}
+
+// ::ng-deep .thumbnail{
+//   border: 1px  solid;
+// }
+
+::ng-deep ds-recent-item-list  {
+  .my-4:nth-child(2n+1){
+    background-color: #f8f9fa;
+
+  }
+}
+
+
+
+
+
+// ::ng-deep ds-viewable-collection {
+//   .row:nth-child(n+1){
+//     background-color: #EEE;
+// }
+// }

@@ -1,0 +1,142 @@
+Run start time: 10/21/2022 04:01:20
+org.dspace.content.Bitstream@87a8a05a 4509cc0b-481a-4d08-8f78-9fee05c32b8b istockphoto-511207904-612x612.jpg
+org.dspace.content.Bitstream@a26b0c7 146b9480-28de-4ea3-99c9-a7c0af5a3830 istockphoto-511207904-612x612.jpg
+org.dspace.content.Bitstream@f296e0a2 a5115e27-fec2-4024-b39f-2bdc1ada4071 istockphoto-511207904-612x612.jpg
+org.dspace.content.Bitstream@8c47d11c 586fa715-407d-4e8b-a98d-a6c33dd82975 license.txt
+org.dspace.content.Bitstream@d340c5ab ed3e1e94-fee9-4ec8-80fc-a72c406badc7 istockphoto-511207904-612x612.jpg
+org.dspace.content.Bitstream@8c060cd0 97362ae2-88cd-430e-a765-7856349bb066 license.txt
+org.dspace.content.Bitstream@8de3077d 926f532c-13df-4e8d-afa3-c504a3f1442c المصحف الشريف.pdf
+org.dspace.content.Bitstream@7315176f d0b918cc-1595-4adf-a8c6-073c1efef954 license.txt
+org.dspace.content.Bitstream@dd709130 7f032983-11ec-42ec-a9d6-5d001a491053 مصحف.jpg
+org.dspace.content.Bitstream@7aee51c7 01df7d2f-0709-4c7c-89bc-b0c9f5876749 التقرير الثاني حول الأعمال المنجزة في خطة تنفيذ مشروع تطوير مركز ادارة المعرفة في عمادة شؤون المكتبات بجامعة نجران.pdf
+org.dspace.content.Bitstream@7e57c100 3d7b6ba6-78fd-45f3-8d64-9712b6b5ef4b المصحف الشريف.pdf.txt
+org.dspace.content.Bitstream@fda72637 c38715d6-49a6-4433-b326-25f1c4a1cf57 المصحف الشريف.pdf.jpg
+org.dspace.content.Bitstream@e4c0105 a5dda1ef-3856-4f1d-9a70-912809b0e9cb image00005.pdf
+org.dspace.content.Bitstream@54d98f27 b650c296-c108-49ae-a1e0-a9ea826106e1 Untitled-1.png
+org.dspace.content.Bitstream@bd4acbd ca81ecf2-547d-4d70-a144-8fe8346c6fa3 Untitled-1.png.jpg
+******************************************************
+Bitstream ID: 9023eaf1-c9c6-49ac-b7e0-35d9ab6a62b1
+Bitstream info found: false
+Bitstream marked deleted: true
+Bitstream found: false
+To be processed: false
+Internal Id: 60931919374891965006343747751148640608
+Name: istockphoto-511207904-612x612.jpg
+Store number: 0
+Size: 63772
+Bitstream format: 16
+User format description: null
+Source: istockphoto-511207904-612x612.jpg
+Checksum algorithm: MD5
+Previous checksum: 475520adfd4911f2c65096f5fc47505b
+Previous checksum date: 10/21/2022 04:01:22
+New checksum: 475520adfd4911f2c65096f5fc47505b
+Checksum comparison result: BITSTREAM_MARKED_DELETED
+
+
+
+******************************************************
+Bitstream ID: 479912f6-773c-4be3-9f63-8ee880ea44ff
+Bitstream info found: false
+Bitstream marked deleted: true
+Bitstream found: false
+To be processed: false
+Internal Id: 117564535549939329751872350777197626865
+Name: license.txt
+Store number: 0
+Size: 4228
+Bitstream format: 2
+User format description: null
+Source: Written by org.dspace.content.LicenseUtils
+Checksum algorithm: MD5
+Previous checksum: aec5f75bc34274c85f4719966a2c6835
+Previous checksum date: 10/21/2022 04:01:22
+New checksum: aec5f75bc34274c85f4719966a2c6835
+Checksum comparison result: BITSTREAM_MARKED_DELETED
+
+
+
+******************************************************
+Bitstream ID: e7b0d533-1c81-4550-b0f6-0ed949a2d9ae
+Bitstream info found: false
+Bitstream marked deleted: true
+Bitstream found: false
+To be processed: false
+Internal Id: 167295400331152043806321812019348089533
+Name: istockphoto-511207904-612x612.jpg
+Store number: 0
+Size: 63772
+Bitstream format: 16
+User format description: null
+Source: istockphoto-511207904-612x612.jpg
+Checksum algorithm: MD5
+Previous checksum: 475520adfd4911f2c65096f5fc47505b
+Previous checksum date: 10/21/2022 04:01:23
+New checksum: 475520adfd4911f2c65096f5fc47505b
+Checksum comparison result: BITSTREAM_MARKED_DELETED
+
+
+
+******************************************************
+Bitstream ID: 96a2d975-f28e-43ff-8cd3-958b2679fe39
+Bitstream info found: false
+Bitstream marked deleted: true
+Bitstream found: false
+To be processed: false
+Internal Id: 44602222592627874486516437049943660917
+Name: license.txt
+Store number: 0
+Size: 4228
+Bitstream format: 2
+User format description: null
+Source: Written by org.dspace.content.LicenseUtils
+Checksum algorithm: MD5
+Previous checksum: aec5f75bc34274c85f4719966a2c6835
+Previous checksum date: 10/21/2022 04:01:23
+New checksum: aec5f75bc34274c85f4719966a2c6835
+Checksum comparison result: BITSTREAM_MARKED_DELETED
+
+
+
+******************************************************
+Bitstream ID: afeec016-156c-49cc-83e8-44cd8cc5eeba
+Bitstream info found: false
+Bitstream marked deleted: true
+Bitstream found: false
+To be processed: false
+Internal Id: 73760061973206949533249989091131268158
+Name: istockphoto-511207904-612x612.jpg.jpg
+Store number: 0
+Size: 37963
+Bitstream format: 16
+User format description: null
+Source: Written by FormatFilter org.dspace.app.mediafilter.JPEGFilter on 2022-10-19T00:01:24Z (GMT).
+Checksum algorithm: MD5
+Previous checksum: b303bae0ef34b57848f7238b2a03298a
+Previous checksum date: 10/21/2022 04:01:23
+New checksum: b303bae0ef34b57848f7238b2a03298a
+Checksum comparison result: BITSTREAM_MARKED_DELETED
+
+
+
+******************************************************
+Bitstream ID: 125480d4-914d-4d0b-8ca6-8f2148b86d66
+Bitstream info found: false
+Bitstream marked deleted: true
+Bitstream found: false
+To be processed: false
+Internal Id: 134681041786864874073136051315785545855
+Name: istockphoto-511207904-612x612.jpg.jpg
+Store number: 0
+Size: 37963
+Bitstream format: 16
+User format description: null
+Source: Written by FormatFilter org.dspace.app.mediafilter.JPEGFilter on 2022-10-19T00:01:27Z (GMT).
+Checksum algorithm: MD5
+Previous checksum: b303bae0ef34b57848f7238b2a03298a
+Previous checksum date: 10/21/2022 04:01:23
+New checksum: b303bae0ef34b57848f7238b2a03298a
+Checksum comparison result: BITSTREAM_MARKED_DELETED
+
+
+
